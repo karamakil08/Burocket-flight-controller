@@ -416,8 +416,12 @@
         "uuid": "ece13985-822e-4117-ba82-38a772aa2f0c"
       }
     ],
-    "used_designators": "#PWR1-10,C1-13,R1,SW1-2,U1,Y1",
-    "variants": []
+    "used_designators": "",
+    "variants": [
+      {
+        "name": "Distributer Link"
+      }
+    ]
   },
   "sheets": [
     [
