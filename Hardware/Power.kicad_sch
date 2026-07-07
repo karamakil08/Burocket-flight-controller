@@ -1,0 +1,138 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "76de8931-50f4-44bb-a29d-668dfd7ac79b")
+	(paper "A4")
+	(lib_symbols)
+	(text "Buck converter"
+		(exclude_from_sim no)
+		(at 159.385 85.725 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0c56c031-7b5c-42f4-a676-4186d2644997")
+	)
+	(text "Power MUX"
+		(exclude_from_sim no)
+		(at 76.835 85.725 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0d5d3ebf-d930-43ef-be95-5d1a71fc5eee")
+	)
+	(text "USB-c ------>"
+		(exclude_from_sim no)
+		(at 18.415 104.775 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2ba6e6b9-9739-4dc8-aba9-3c873d3995cf")
+	)
+	(text "---->"
+		(exclude_from_sim no)
+		(at 125.73 85.725 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3dfd00f8-7042-4d1e-9280-a94cd36f6104")
+	)
+	(text "[2] Power"
+		(exclude_from_sim no)
+		(at 13.335 20.955 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "72a145ba-e9a2-4e39-8870-f60b836b05a0")
+	)
+	(text "----->"
+		(exclude_from_sim no)
+		(at 220.98 86.36 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7c843db1-b4fa-4136-996d-fe4aab44dd01")
+	)
+	(text "Power input ---->"
+		(exclude_from_sim no)
+		(at 15.24 66.04 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8b0bf468-ee42-4d48-a26d-b2200114cd93")
+	)
+	(text "LDO"
+		(exclude_from_sim no)
+		(at 260.985 86.36 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a9efb087-f76c-454b-b829-e8ad3910123f")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 184.15 78.105 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "bf2c3be3-9075-4488-bdf2-88ec99d7774c")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 264.16 79.375 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "df4d1732-c00e-480d-b2d4-82c93c2c1019")
+	)
+)
