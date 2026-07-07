@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "76de8931-50f4-44bb-a29d-668dfd7ac79b")
+	(paper "A4")
+	(lib_symbols)
+	(text "[2] Power"
+		(exclude_from_sim no)
+		(at 13.335 20.955 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "72a145ba-e9a2-4e39-8870-f60b836b05a0")
+	)
+)
