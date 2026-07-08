@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -416,7 +416,7 @@
         "uuid": "ece13985-822e-4117-ba82-38a772aa2f0c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R2-7,J1-3,BT1,#PWR11-24,C14-15",
     "variants": [
       {
         "name": "Distributer Link"

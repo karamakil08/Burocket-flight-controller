@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "ece13985-822e-4117-ba82-38a772aa2f0c")
 	(paper "A4")
+	(title_block
+		(title "Dumenden aviyonik pc")
+		(date "2026-07-08")
+		(rev "0.1")
+		(company "Burocket")
+	)
 	(lib_symbols)
 	(sheet
 		(at 109.22 71.12)
