@@ -702,6 +702,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WEBENCH Link",
+          "name": "WEBENCH Link",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -771,8 +777,12 @@
         "uuid": "ece13985-822e-4117-ba82-38a772aa2f0c"
       }
     ],
-    "used_designators": "",
-    "variants": []
+    "used_designators": "#PWR43-48,C28-32,R8,R11-13,R15",
+    "variants": [
+      {
+        "name": "Distributer Link"
+      }
+    ]
   },
   "sheets": [
     [

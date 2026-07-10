@@ -11,6 +11,19 @@
 		(company "Burocket")
 	)
 	(lib_symbols)
+	(text "TODO:\n- Add buzzer \nConsider piezo for lower electrical noise.\n- Finish power schematics.\n- Finish SD-card schematics\n- Finish USB schematics\n- Additionally read USB-c VBUS voltage"
+		(exclude_from_sim no)
+		(at -163.195 9.525 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "477f12fa-f0d5-4fe9-8dbb-50b0533de77f")
+	)
 	(sheet
 		(at 109.22 71.12)
 		(size 19.05 14.605)
