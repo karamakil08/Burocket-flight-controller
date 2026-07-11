@@ -11,7 +11,7 @@
 		(company "Burocket")
 	)
 	(lib_symbols)
-	(text "TODO:\n- Add buzzer \nConsider piezo for lower electrical noise.\n- Finish power schematics.\n- Finish SD-card schematics\n- Finish USB schematics\n- Additionally read USB-c VBUS voltage"
+	(text "TODO:\n- Add buzzer.\n- Finish power schematics.\n- Additionally read USB-c VBUS voltage.\n- Add Lora Module footprint"
 		(exclude_from_sim no)
 		(at -163.195 9.525 0)
 		(effects

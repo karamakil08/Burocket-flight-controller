@@ -1,0 +1,25 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\Microslop\Desktop\Burocket-flight-controller\Simulations\Buzzer simulation\Buzzer simulation.net
+Start Time: Sat Jul 11 13:04:34 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 1.970 seconds.
+
+Files loaded:
+C:\Users\Microslop\Desktop\Burocket-flight-controller\Simulations\Buzzer simulation\Buzzer simulation.net
+C:\Users\Microslop\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Microslop\AppData\Local\LTspice\lib\cmp\standard.bjt
+
+max_voltage_buzzer: MAX(V(N019,N021))=4.99911398999 FROM 0 TO 0.01
+max_power_dissipated: MAX(V(N021)*Ic(Q1)+V(N024)*Ib(Q1))=0.263166474669 FROM 0 TO 0.01
+average_dissipated_power: AVG(V(N021)*Ic(Q1)+V(N024)*Ib(Q1))=0.0304942059174 FROM 0 TO 0.01
+max_power_dissipation_no_pwm: AVG(V(N021)*Ic(Q1)+V(N024)*Ib(Q1))=0.0304942059174 FROM 0 TO 0.01
+average_voltage_buzzer: AVG(V(N019,N021))=0.821523252971 FROM 0 TO 0.01
+max_flyback_current: MAX(I(D3))=0.0752628967166 FROM 0 TO 0.01
+average_flyback_current: AVG(I(D3))=0.0142299192756 FROM 0 TO 0.01
+average_diode_current: AVG(I(D1))=0.0296631924601 FROM 0 TO 0.01
+max_diode_current: MAX(I(D1))=0.0767958387733 FROM 0 TO 0.01
