@@ -11,6 +11,31 @@
 		(company "Burocket")
 	)
 	(lib_symbols)
+	(text "current consumption ≈ 12.5µA @1 sample/second"
+		(exclude_from_sim no)
+		(at 193.04 89.535 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0e9cb986-07a7-4a7e-9bd8-0f61f3cc594d")
+	)
+	(text "ICM-42688"
+		(exclude_from_sim no)
+		(at 41.275 39.37 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "14b49d6b-325a-43b4-958c-38c2eee1c93f")
+	)
 	(text "[1] Sensors"
 		(exclude_from_sim no)
 		(at 11.43 19.05 0)
@@ -23,6 +48,81 @@
 			(justify left)
 		)
 		(uuid "2bc093fa-c889-43b6-84bf-6be6e45e958a")
+	)
+	(text "NEO-M10"
+		(exclude_from_sim no)
+		(at 169.545 107.315 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "51f17190-1b68-430d-9a8c-896bdcd06300")
+	)
+	(text "current consumption ≈ 145µA"
+		(exclude_from_sim no)
+		(at 92.075 156.845 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a698099f-961c-4ebd-b55c-e92450afbdaf")
+	)
+	(text "current consumption ≈ 0.88mA"
+		(exclude_from_sim no)
+		(at 90.805 90.805 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b8097e97-f069-4f83-b72a-cd6353211699")
+	)
+	(text "MS5611"
+		(exclude_from_sim no)
+		(at 168.275 38.735 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "c5e448fc-2e27-4bfa-bb15-8eb2dc96a91f")
+	)
+	(text "Current consumption ≈ 260mA"
+		(exclude_from_sim no)
+		(at 222.25 158.75 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c818f7e7-b232-49d3-9c1a-2519f6b5b744")
+	)
+	(text "ADXL375"
+		(exclude_from_sim no)
+		(at 38.1 106.045 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d0a77c0f-ff5d-4283-935f-28ed7166d461")
 	)
 	(image
 		(at 276.86 173.99)
@@ -3897,6 +3997,82 @@
 			"AAAAAICGhDEAAAAAAAANCWMAAAAAAAAaEsYAAAAAAAA0JIwBAAAAAABoSBgDAAAAAADQkDAGAAAA"
 			"AACgIWEMAAAAAABAQ8IYAAAAAACAhoQxAAAAAAAADQljAAAAAAAAGhLGAAAAAAAANCSMAQAAAAAA"
 			"aOj/AyuyuQASltcqAAAAAElFTkSuQmCC"
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 29.21 102.87) (xy 29.21 159.385) (xy 137.795 159.385) (xy 137.795 102.87)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "038e98c1-b166-4d77-8425-7acfc80ea109")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 159.385 104.14) (xy 159.385 160.655) (xy 267.97 160.655) (xy 267.97 104.14)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "039cb8be-e688-4521-9f80-5ee360159985")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 159.385 35.56) (xy 159.385 92.075) (xy 267.97 92.075) (xy 267.97 35.56)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "9f491d3f-f0f9-41bb-8706-83c5b4a19f93")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 29.21 36.195) (xy 29.21 92.71) (xy 137.795 92.71) (xy 137.795 36.195)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "eeb6b0a1-3b82-4de5-b56f-d5d2e6da8d7e")
 		)
 	)
 )

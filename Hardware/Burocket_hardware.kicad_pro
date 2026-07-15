@@ -777,7 +777,7 @@
         "uuid": "ece13985-822e-4117-ba82-38a772aa2f0c"
       }
     ],
-    "used_designators": "#PWR53-61,R29-38,C19-20,C35-36",
+    "used_designators": "D5,D7,R11,R16-20,R27-28,R36-38",
     "variants": [
       {
         "name": "Distributer Link"
@@ -804,6 +804,10 @@
     [
       "07d19467-7f8f-439c-a804-3c86584a36a4",
       "Connections_relays"
+    ],
+    [
+      "a19783cd-93e1-45ac-86f9-c63473691f8a",
+      "LoRa"
     ]
   ],
   "text_variables": {},

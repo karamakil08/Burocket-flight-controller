@@ -1,0 +1,39 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "17acfc35-763a-4050-a726-54d3439ff152")
+	(paper "A4")
+	(title_block
+		(title "LoRa")
+		(date "2026-07-08")
+		(rev "0.1")
+		(company "Burocket")
+	)
+	(lib_symbols)
+	(text "[4] LoRa"
+		(exclude_from_sim no)
+		(at 38.735 20.32 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+		)
+		(uuid "bc87300d-7c69-4514-b670-73d23255136f")
+	)
+	(text "- Add Switches for mode selection\n- Add decouple capacitor bank\n- Add the footprint"
+		(exclude_from_sim no)
+		(at 16.256 50.292 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "fcc2fdb1-b64d-416f-b5ae-cfce81b1960d")
+	)
+)

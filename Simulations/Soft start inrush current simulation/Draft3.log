@@ -1,0 +1,16 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\Microslop\Desktop\Burocket-flight-controller\Simulations\Soft start inrush current simulation\Draft3.net
+Start Time: Wed Jul 15 13:05:53 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.357 seconds.
+
+Files loaded:
+C:\Users\Microslop\Desktop\Burocket-flight-controller\Simulations\Soft start inrush current simulation\Draft3.net
+C:\Users\Microslop\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Microslop\AppData\Local\LTspice\lib\cmp\standard.bjt
+
