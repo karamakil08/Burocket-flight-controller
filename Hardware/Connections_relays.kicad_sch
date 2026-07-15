@@ -2985,7 +2985,7 @@
 		)
 		(uuid "50a9d436-bb37-4c89-ada3-943dd3d7abec")
 	)
-	(text "70-ohm impedance matching"
+	(text "90-ohm impedance matching"
 		(exclude_from_sim no)
 		(at 19.304 47.244 0)
 		(effects
@@ -9293,6 +9293,12 @@
 			(uuid "5ad5e632-d20e-4925-be3d-da531323af61")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR076")
@@ -9375,6 +9381,12 @@
 			(uuid "00439cda-9a99-4dab-ba30-166246fd945c")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "J7")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "J7")
@@ -9478,6 +9490,12 @@
 			(uuid "2be44c3d-be83-48bb-bc71-ebb1ff738d91")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "D3")
@@ -9556,6 +9574,12 @@
 			(uuid "b006914b-a2c0-4dc2-965b-00161dd81674")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR012")
@@ -9824,6 +9848,12 @@
 			(uuid "e2352803-92db-4041-a59f-55a28af76551")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "J1")
@@ -9925,6 +9955,12 @@
 			(uuid "d6eb16fd-025a-4faa-aa97-268858630846")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R2")
@@ -10007,6 +10043,12 @@
 			(uuid "c56eca2b-9f48-48e6-a657-a77bceafdea8")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R46")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R46")
@@ -10089,6 +10131,12 @@
 			(uuid "ae4e6077-a0de-40dc-bce7-37df9ddedee9")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R43")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R43")
@@ -10167,6 +10215,12 @@
 			(uuid "b4d15a58-85df-428a-ab25-ca75d256a9f8")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR016")
@@ -10247,6 +10301,12 @@
 			(uuid "fb1bf091-3338-4930-833c-e46590b747aa")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R39")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R39")
@@ -10348,6 +10408,12 @@
 			(uuid "5e3c9992-feb5-478f-be7b-9f25111d2b00")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R35")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R35")
@@ -10452,6 +10518,12 @@
 			(uuid "743268ee-b3b6-408c-95e0-2d2175629d79")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "D4")
@@ -10553,6 +10625,12 @@
 			(uuid "3707f5db-1a61-4f15-9ac3-7e1063c24021")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R44")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R44")
@@ -10630,6 +10708,12 @@
 			(uuid "dd2cd3f2-2950-4df1-a0db-101637c4449e")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR079")
@@ -10708,6 +10792,12 @@
 			(uuid "b8b15dd1-f222-4909-80d3-0e13b360bb76")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR041")
@@ -10788,6 +10878,12 @@
 			(uuid "3b36ebfd-4edf-4796-b5dc-cdacb2273aa3")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R34")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R34")
@@ -10866,6 +10962,12 @@
 			(uuid "1089f6b3-12e4-4e83-a729-bca623f7dcc9")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR039")
@@ -10967,6 +11069,12 @@
 			(uuid "84477e4e-bdbd-43e5-8cf8-1fe0ec4eb830")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R52")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R52")
@@ -11071,6 +11179,12 @@
 			(uuid "32e369e1-d79f-4c28-9913-c84796c2059c")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R25")
@@ -11175,6 +11289,12 @@
 			(uuid "d4c24404-9ac9-4d56-91b8-e1c4c7c960fe")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R18")
@@ -11276,6 +11396,12 @@
 			(uuid "bef84712-27d9-466f-82a2-e98294050e8d")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R14")
@@ -11358,6 +11484,12 @@
 			(uuid "cb023066-a0a2-4040-9d29-78b2cd803678")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R12")
@@ -11436,6 +11568,12 @@
 			(uuid "5585ea4a-0fbf-4b99-92a5-42ca1d618b01")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR075")
@@ -11539,6 +11677,12 @@
 			(uuid "d4fb9a6a-7f9d-4259-9b0e-dba1a5b208da")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R8")
@@ -11640,6 +11784,12 @@
 			(uuid "137695dd-dbe3-455e-8ef7-5db0383e77fb")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R41")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R41")
@@ -11744,6 +11894,12 @@
 			(uuid "a5ce2e6e-580c-4076-99e1-a73b0389aefb")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "C28")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "C28")
@@ -11825,6 +11981,12 @@
 			(uuid "1e8015d7-9980-4bd4-83b1-2709ff22d4dc")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R49")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R49")
@@ -11929,6 +12091,12 @@
 			(uuid "85c6d9a8-1081-403a-9bef-8392f0a7f7b1")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "C29")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "C29")
@@ -12031,6 +12199,12 @@
 			(uuid "6bcc0de0-ffa5-4f5b-9b1d-c6e3cd1276fd")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R3")
@@ -12108,6 +12282,12 @@
 			(uuid "89c2a7be-c902-4959-a7e4-c1a8858e9fa5")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR044")
@@ -12186,6 +12366,12 @@
 			(uuid "89ca297a-2607-4cdd-b9cb-a7582acb3a5f")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR080")
@@ -12264,6 +12450,12 @@
 			(uuid "c3811077-32f6-4abf-b60d-e3efc8942732")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR078")
@@ -12367,6 +12559,12 @@
 			(uuid "0fa4f151-e6fe-467d-8375-5c8b942edae3")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "C46")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "C46")
@@ -12471,6 +12669,12 @@
 			(uuid "ca9d284f-cc81-4d8e-9134-d3daa9bbd978")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R16")
@@ -12552,6 +12756,12 @@
 			(uuid "668b68a9-2658-4ca4-8669-188441641fd7")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R51")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R51")
@@ -12630,6 +12840,12 @@
 			(uuid "a7cf4c03-ebfd-490a-aa1e-513841d04c4d")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR077")
@@ -12748,6 +12964,12 @@
 			(uuid "86973c60-5d70-407f-bd5c-c69b4b26b202")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "Q4")
@@ -12826,6 +13048,12 @@
 			(uuid "97a31eb6-22b8-4bf3-adc3-b57e03732477")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR014")
@@ -12903,6 +13131,12 @@
 			(uuid "0dfc8927-a9b5-49f6-8d86-a79ad2ab8989")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR013")
@@ -12980,6 +13214,12 @@
 			(uuid "06ac8157-36a0-4e24-8952-b7ea7ab3b10b")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR081")
@@ -13060,6 +13300,12 @@
 			(uuid "91b9f57e-1202-4fd6-b364-79bd1c9ac833")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R42")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R42")
@@ -13142,6 +13388,12 @@
 			(uuid "39daf079-3357-43c6-a4fe-6cfe3b131275")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "J4")
@@ -13245,6 +13497,12 @@
 			(uuid "18e70823-7cfb-4f9a-be6a-3b52f8640f64")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R19")
@@ -13326,6 +13584,12 @@
 			(uuid "55e873df-aef6-4c07-840d-eaec31d47cd3")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R15")
@@ -13404,6 +13668,12 @@
 			(uuid "53b86563-0b43-4a11-8c20-553115613866")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR069")
@@ -13522,6 +13792,12 @@
 			(uuid "61a835ed-f529-4c71-9453-8129e20bc43e")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "Q5")
@@ -13600,6 +13876,12 @@
 			(uuid "1517ad6f-df5a-4d8b-a078-9eabaaae81a7")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR011")
@@ -13718,6 +14000,12 @@
 			(uuid "b85fd5ec-0538-4e1d-9fde-dccd3f9313be")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "Q2")
@@ -13799,6 +14087,12 @@
 			(uuid "ec0bd14c-6282-405e-aa85-705fb794fe4d")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R50")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R50")
@@ -13877,6 +14171,12 @@
 			(uuid "7c037792-73ac-4cf3-a8d0-6ad24604f019")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR017")
@@ -13958,6 +14258,12 @@
 			(uuid "86bd3109-dea3-4b16-a5e3-588da598d040")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R48")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R48")
@@ -14036,6 +14342,12 @@
 			(uuid "3984e60a-8569-473b-9d07-957d792a74dc")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR040")
@@ -14141,6 +14453,12 @@
 			(uuid "65fae6f2-484c-43b5-b266-70c7f777e12a")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "U4")
@@ -14222,6 +14540,12 @@
 			(uuid "ce9de14a-f693-474a-89ad-9aa3120fab1b")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR074")
@@ -14304,6 +14628,12 @@
 			(uuid "9b44352b-83ce-4fbf-b0ff-ab7946f3785b")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "J2")
@@ -14422,6 +14752,12 @@
 			(uuid "a62a43ca-3158-46e5-b471-384765447a53")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "Q3")
@@ -14500,6 +14836,12 @@
 			(uuid "33f8adf2-075d-4126-81c2-fec6adb7ddc2")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR067")
@@ -14603,6 +14945,12 @@
 			(uuid "a93c9aed-45bc-41f8-9ff8-708e19e5ddf6")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R20")
@@ -14685,6 +15033,12 @@
 			(uuid "6805a710-3ac3-4b33-bc72-aee5e199f856")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R13")
@@ -14765,6 +15119,12 @@
 			(uuid "1a50d1ea-2e16-44e3-9ca0-038ed7ff37bb")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R45")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R45")
@@ -14868,6 +15228,12 @@
 			(uuid "556e85a1-5031-485a-8a2b-fc2bd6738e60")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "C27")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "C27")
@@ -14946,6 +15312,12 @@
 			(uuid "fc6ef592-6be6-4703-becb-a684a2bfc5e1")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR072")
@@ -15050,6 +15422,12 @@
 			(uuid "0dd08942-c3bf-4940-b1bb-fdfeb3805ec9")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "C37")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "C37")
@@ -15128,6 +15506,12 @@
 			(uuid "becb912f-08a7-4b94-87c0-be2a20265e8a")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR070")
@@ -15231,6 +15615,12 @@
 			(uuid "dd505622-b7f0-436f-bb0f-c8747ec14ef9")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "C21")
@@ -15309,6 +15699,12 @@
 			(uuid "fdf5dd7a-b83f-4700-b814-4a70530c9d82")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR071")
@@ -15387,6 +15783,12 @@
 			(uuid "8ad1eede-ace1-4ef3-a9a0-10d57137ceaf")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR015")
@@ -15514,6 +15916,12 @@
 			(uuid "d8e6d5f4-3663-4a5e-886c-b28141871995")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "J3")
@@ -15617,6 +16025,12 @@
 			(uuid "3ffe5bb6-5a19-4586-ab91-65d942108e1e")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R17")
@@ -15695,6 +16109,12 @@
 			(uuid "d990327e-9135-47f5-bdd1-3deb24d8463c")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR073")
@@ -15773,6 +16193,12 @@
 			(uuid "d3b4ff6e-8b4b-43b7-8cab-6e579db9a4fc")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR030")
@@ -15851,6 +16277,12 @@
 			(uuid "56072ebd-e693-4592-a31b-e0c762f9c1db")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR045")
@@ -15929,6 +16361,12 @@
 			(uuid "220b57c5-7ae0-4c98-bc78-4a96dbd4adaf")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR068")
@@ -16033,6 +16471,12 @@
 			(uuid "a6be9846-77cb-417a-b5cd-dc884c86dde0")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "C22")
@@ -16137,6 +16581,12 @@
 			(uuid "67708165-390a-433e-8d2b-2a139f524d8b")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "C39")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "C39")
@@ -16219,6 +16669,12 @@
 			(uuid "4085caa3-6379-404c-bbff-ec1f1175e46b")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R33")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R33")
@@ -16297,6 +16753,12 @@
 			(uuid "8291df51-318b-4c92-94ca-1c6abd6ce3f8")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR033")
@@ -16379,6 +16841,12 @@
 			(uuid "7f3d8171-fe18-4f2b-86c4-e85d3092357c")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "J6")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "J6")
@@ -16483,6 +16951,12 @@
 			(uuid "4948c3e7-0f51-4850-a8f3-fd685937d61a")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "C36")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "C36")
@@ -16561,6 +17035,12 @@
 			(uuid "af96d860-09fe-4625-a61b-2cf2abf4b446")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR043")
@@ -16642,6 +17122,12 @@
 			(uuid "e7c68899-c088-481f-9826-7c53d967d545")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R47")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R47")
@@ -16724,6 +17210,12 @@
 			(uuid "bf04f328-867c-4105-877b-3cd178d81371")
 		)
 		(instances
+			(project "Connections_relays"
+				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
+					(reference "R40")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R40")
@@ -16732,4 +17224,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
