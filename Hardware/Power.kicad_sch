@@ -2615,19 +2615,6 @@
 		)
 		(uuid "188edaf3-7157-4fba-b38d-e2afa823234d")
 	)
-	(text "ADD ESD protection to Input"
-		(exclude_from_sim no)
-		(at 17.145 -20.955 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "20c89692-f60a-4c2e-a03c-f3b53c3ce955")
-	)
 	(text "USB-c ------>"
 		(exclude_from_sim no)
 		(at -445.135 125.095 0)
@@ -2835,19 +2822,6 @@
 			(justify left)
 		)
 		(uuid "8b0bf468-ee42-4d48-a26d-b2200114cd93")
-	)
-	(text "TODO: \n- Select input and output caps\n- Add ferrite bead"
-		(exclude_from_sim no)
-		(at -130.175 23.495 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "90bec4a9-723a-462e-ac9e-6ade9338b1c6")
 	)
 	(text "Buck converter"
 		(exclude_from_sim no)

@@ -36,4 +36,52 @@
 		)
 		(uuid "fcc2fdb1-b64d-416f-b5ae-cfce81b1960d")
 	)
+	(global_label "RF_TX"
+		(shape output)
+		(at 56.134 98.552 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a426f2e-c248-4aac-802a-7684acc8709a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.6455 98.552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RF_RX"
+		(shape input)
+		(at 56.134 101.346 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a847e9f6-c14d-4714-89c5-6f51b1809cd7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.3431 101.346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 )

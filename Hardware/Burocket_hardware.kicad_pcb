@@ -87,5 +87,10 @@
 			(outputdirectory "")
 		)
 	)
+	(variants
+		(variant
+			(name "Distributer Link")
+		)
+	)
 	(embedded_fonts no)
 )
