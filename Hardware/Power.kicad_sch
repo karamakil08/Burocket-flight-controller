@@ -2823,6 +2823,19 @@
 		)
 		(uuid "8b0bf468-ee42-4d48-a26d-b2200114cd93")
 	)
+	(text "Do calculations"
+		(exclude_from_sim no)
+		(at 51.308 49.784 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8f311e0a-350f-46e6-a91f-76ee76e039a5")
+	)
 	(text "Buck converter"
 		(exclude_from_sim no)
 		(at 50.165 34.925 0)
@@ -3180,6 +3193,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9f2dfc1-ea50-4056-a402-25fb31671efa")
+	)
+	(junction
+		(at 120.65 60.325)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd1f08d2-60ec-4164-a3a4-27a872bbbe2c")
 	)
 	(junction
 		(at 127.762 78.74)
@@ -3563,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 60.452) (xy 120.65 62.738)
+			(xy 120.65 60.198) (xy 120.65 60.325)
 		)
 		(stroke
 			(width 0)
@@ -4013,7 +4032,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 62.738) (xy 119.126 62.738)
+			(xy 120.65 62.484) (xy 119.126 62.484)
 		)
 		(stroke
 			(width 0)
@@ -4133,7 +4152,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.126 62.738) (xy 119.126 67.818)
+			(xy 119.126 62.484) (xy 119.126 67.818)
 		)
 		(stroke
 			(width 0)
@@ -4160,6 +4179,16 @@
 			(type default)
 		)
 		(uuid "eba6ee50-d59e-47b8-b656-6d5ba9f14d10")
+	)
+	(wire
+		(pts
+			(xy 120.65 60.325) (xy 120.65 62.484)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2a9709-8c0d-4dd4-875c-d3cc6fd356d2")
 	)
 	(wire
 		(pts
