@@ -11,9 +11,9 @@
 		(company "Burocket")
 	)
 	(lib_symbols)
-	(text "TODO:\n- Select caps for the Buck converter\n- Add SSR and simulate\n- Select ferrite beads\n- Add current sense amplifier \nwith a shunt resistor\n- Complete sensor page\n- Complete LoRa page"
+	(text "TODO:\n- Consider changing the X6S caps\n- Consider series resisrance on UART and SPI lines\n- Check if open-drain and interrupt pin is valid\n- Consider another inductor for the buck converter\n- Select ferrite beads\n- Consider pull-up resistor values on I2C\n- Consider Passive components\n- Consider and thoroughly check all footprints\n- Check if STM32CubeMX matches the MCU page\n- Check all footprints\n- Add tables to schematics for better explanation\n\n\n- Select caps for the Buck converter\n- Add SSR and simulate"
 		(exclude_from_sim no)
-		(at -163.576 72.39 0)
+		(at -215.138 51.562 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -26,7 +26,7 @@
 	)
 	(text "Note:\n- Buck Output capacitors\n- Buck Inductor\n- Buzzer simulation don't really match \n- Consider VDDA ferrite bead"
 		(exclude_from_sim no)
-		(at -163.576 128.778 0)
+		(at -216.916 175.26 0)
 		(effects
 			(font
 				(size 5.08 5.08)

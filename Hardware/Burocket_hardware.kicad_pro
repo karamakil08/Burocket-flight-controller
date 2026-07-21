@@ -777,7 +777,7 @@
         "uuid": "ece13985-822e-4117-ba82-38a772aa2f0c"
       }
     ],
-    "used_designators": "#PWR47-48,#PWR51-52,#PWR82-95,D5,D7,R11,R16-20,R27-28,R36-38,R53-59,TP1,FB1,U5-7,U9,C8-9,C14,C19-20,C26",
+    "used_designators": "J8,R1,R65-67,C32-34,C48-52,D8,L2,#PWR106-112,Q6-7",
     "variants": [
       {
         "name": "Distributer Link"
