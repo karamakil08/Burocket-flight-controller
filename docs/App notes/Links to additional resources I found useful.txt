@@ -1,0 +1,36 @@
+Configuring a pins a open drain and EXTI:
+https://community.st.com/stm32-mcus-products-25/pin-as-an-open-drain-output-and-exti-at-the-same-time-stm32f030-58373
+
+Samsung Capacitor Library site:
+https://weblib.samsungsem.com/mlcc/mlcc-ec.do
+
+Murata Passive components library:
+https://www.murata.com/tool/simsurfing
+
+On selecting a ferrite bead:
+- https://shorturl.at/rvSlJ
+- https://www.youtube.com/watch?v=HaLMjVkKYMw
+- https://resources.altium.com/p/everything-you-need-to-know-about-ferrite-beads
+- https://resources.altium.com/p/how-do-ferrite-beads-work-and-how-do-you-choose-right-one
+- https://resources.altium.com/p/three-frequency-ranges-ferrite-bead-usage
+
+On Buck converter:
+- https://www.youtube.com/watch?v=AmfLhT5SntE
+- https://www.youtube.com/watch?v=FqT_Ofd54fo
+- https://www.youtube.com/watch?v=gq-0ZpcGm8E
+- https://www.youtube.com/watch?v=ro_ZoAuNZG4
+- https://webench.ti.com/power-designer/
+
+On differential pairs (for USB):
+- https://www.youtube.com/watch?v=xwrdvhm4vgw
+- https://www.youtube.com/watch?v=QG0Apol-oj0
+
+On controlled impedance:
+- https://www.youtube.com/watch?v=aNYmOIMt7CY
+
+On ESD protection:
+https://www.youtube.com/watch?v=MmG_m4xVNfQ
+
+Some Exquisite music:
+- https://www.youtube.com/watch?v=yEN5rGR7gtM
+- https://www.youtube.com/watch?v=X-jdl9hcCeg&list=RDX-jdl9hcCeg&start_radio=1

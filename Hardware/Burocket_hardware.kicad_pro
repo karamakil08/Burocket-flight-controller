@@ -777,7 +777,7 @@
         "uuid": "ece13985-822e-4117-ba82-38a772aa2f0c"
       }
     ],
-    "used_designators": "J8,R1,R65-67,C32-34,C48-52,D8,L2,#PWR106-112,Q6-7",
+    "used_designators": "U12-13,L2,#PWR113-127,C53-62,R1,R6-8,R75",
     "variants": [
       {
         "name": "Distributer Link"
@@ -808,6 +808,10 @@
     [
       "a19783cd-93e1-45ac-86f9-c63473691f8a",
       "LoRa"
+    ],
+    [
+      "fd943158-d042-4f4a-9023-ff2a53837944",
+      "USB-c"
     ]
   ],
   "text_variables": {},

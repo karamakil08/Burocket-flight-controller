@@ -11,9 +11,9 @@
 		(company "Burocket")
 	)
 	(lib_symbols)
-	(text "TODO:\n- Consider changing the X6S caps\n- Consider series resisrance on UART and SPI lines\n- Check if open-drain and interrupt pin is valid\n- Consider another inductor for the buck converter\n- Select ferrite beads\n- Consider pull-up resistor values on I2C\n- Consider Passive components\n- Consider and thoroughly check all footprints\n- Check if STM32CubeMX matches the MCU page\n- Check all footprints\n- Add tables to schematics for better explanation\n\n\n- Select caps for the Buck converter\n- Add SSR and simulate"
+	(text "TODO:\n- Complete buck converter circuit\n- Complete SSR circuit\n- Complete Buzzer circuit\n- Select ferrite beads\n- Consider Passive components\n\n\n- Consider and thoroughly check all footprints\n- Select caps for the Buck converter\n- Add SSR and simulate"
 		(exclude_from_sim no)
-		(at -215.138 51.562 0)
+		(at -211.582 50.038 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -26,7 +26,7 @@
 	)
 	(text "Note:\n- Buck Output capacitors\n- Buck Inductor\n- Buzzer simulation don't really match \n- Consider VDDA ferrite bead"
 		(exclude_from_sim no)
-		(at -216.916 175.26 0)
+		(at -215.138 147.574 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -263,6 +263,52 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.274 74.676)
+		(size 19.558 13.462)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fd943158-d042-4f4a-9023-ff2a53837944")
+		(property "Sheetname" "USB-c"
+			(at 160.274 73.9644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-c.kicad_sch"
+			(at 160.274 88.7226 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c"
+					(page "7")
 				)
 			)
 		)
