@@ -807,9 +807,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Possibly Make PDN simulation \nto test voltage sag additionally \nto buck converter voltage sag"
+		(exclude_from_sim no)
+		(at 111.506 64.008 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4dfb7bc9-39d9-4aca-8de4-660a8190d8c2")
+	)
 	(text "LoRa Module"
 		(exclude_from_sim no)
-		(at 104.648 73.152 0)
+		(at 110.236 79.502 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -833,50 +846,50 @@
 		(uuid "bc87300d-7c69-4514-b670-73d23255136f")
 	)
 	(junction
-		(at 157.48 103.378)
+		(at 163.068 109.728)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28ee9f36-0921-463a-95ae-a0998cf05769")
 	)
 	(junction
-		(at 148.59 103.378)
+		(at 154.178 109.728)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e3edbe5-0da5-4ee1-b43e-5fe8517f210a")
 	)
 	(junction
-		(at 136.398 114.554)
+		(at 141.986 120.904)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c422602-af26-4e22-9451-f696e1846d95")
 	)
 	(junction
-		(at 148.59 114.554)
+		(at 154.178 120.904)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e4207f8-0b97-41cc-a236-bf440b0192e5")
 	)
 	(junction
-		(at 139.7 114.554)
+		(at 145.288 120.904)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87985d55-1c04-4da5-8e0f-86e4c4a04876")
 	)
 	(junction
-		(at 124.968 103.378)
+		(at 130.556 109.728)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c504e484-03b1-4861-a76e-b23a50de17ef")
 	)
 	(junction
-		(at 136.398 103.378)
+		(at 141.986 109.728)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d255d8bb-5d20-4b18-ba35-5a1acf48bbb6")
 	)
 	(wire
 		(pts
-			(xy 148.59 114.554) (xy 157.48 114.554)
+			(xy 154.178 120.904) (xy 163.068 120.904)
 		)
 		(stroke
 			(width 0)
@@ -886,7 +899,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.398 103.378) (xy 148.59 103.378)
+			(xy 141.986 109.728) (xy 154.178 109.728)
 		)
 		(stroke
 			(width 0)
@@ -896,7 +909,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.398 112.522) (xy 136.398 114.554)
+			(xy 141.986 118.872) (xy 141.986 120.904)
 		)
 		(stroke
 			(width 0)
@@ -906,7 +919,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 101.092) (xy 165.1 100.838)
+			(xy 170.688 107.442) (xy 170.688 107.188)
 		)
 		(stroke
 			(width 0)
@@ -916,7 +929,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.482 105.918) (xy 171.196 105.918)
+			(xy 179.07 112.268) (xy 176.784 112.268)
 		)
 		(stroke
 			(width 0)
@@ -926,7 +939,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.398 114.554) (xy 148.59 114.554)
+			(xy 141.986 120.904) (xy 154.178 120.904)
 		)
 		(stroke
 			(width 0)
@@ -936,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 113.284) (xy 157.48 114.554)
+			(xy 163.068 119.634) (xy 163.068 120.904)
 		)
 		(stroke
 			(width 0)
@@ -946,7 +959,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 98.298) (xy 173.482 98.298)
+			(xy 170.688 104.648) (xy 179.07 104.648)
 		)
 		(stroke
 			(width 0)
@@ -956,7 +969,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.482 90.678) (xy 165.1 90.678)
+			(xy 179.07 97.028) (xy 170.688 97.028)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +979,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 103.378) (xy 157.48 103.378)
+			(xy 154.178 109.728) (xy 163.068 109.728)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +989,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.968 103.378) (xy 124.968 104.902)
+			(xy 130.556 109.728) (xy 130.556 111.252)
 		)
 		(stroke
 			(width 0)
@@ -986,7 +999,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.968 114.554) (xy 136.398 114.554)
+			(xy 130.556 120.904) (xy 141.986 120.904)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +1009,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 103.378) (xy 173.482 103.378)
+			(xy 163.068 109.728) (xy 179.07 109.728)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1019,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.196 105.918) (xy 171.196 107.696)
+			(xy 176.784 112.268) (xy 176.784 114.046)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1029,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 103.378) (xy 148.59 104.902)
+			(xy 154.178 109.728) (xy 154.178 111.252)
 		)
 		(stroke
 			(width 0)
@@ -1026,7 +1039,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.398 103.378) (xy 136.398 104.902)
+			(xy 141.986 109.728) (xy 141.986 111.252)
 		)
 		(stroke
 			(width 0)
@@ -1036,7 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.968 114.554) (xy 124.968 112.522)
+			(xy 130.556 120.904) (xy 130.556 118.872)
 		)
 		(stroke
 			(width 0)
@@ -1046,7 +1059,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 100.838) (xy 173.482 100.838)
+			(xy 170.688 107.188) (xy 179.07 107.188)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1069,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 93.218) (xy 173.482 93.218)
+			(xy 170.688 99.568) (xy 179.07 99.568)
 		)
 		(stroke
 			(width 0)
@@ -1066,7 +1079,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 105.664) (xy 157.48 103.378)
+			(xy 163.068 112.014) (xy 163.068 109.728)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.968 103.378) (xy 136.398 103.378)
+			(xy 130.556 109.728) (xy 141.986 109.728)
 		)
 		(stroke
 			(width 0)
@@ -1086,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 95.758) (xy 173.482 95.758)
+			(xy 170.688 102.108) (xy 179.07 102.108)
 		)
 		(stroke
 			(width 0)
@@ -1096,7 +1109,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 114.554) (xy 139.7 116.332)
+			(xy 145.288 120.904) (xy 145.288 122.682)
 		)
 		(stroke
 			(width 0)
@@ -1106,7 +1119,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.968 98.298) (xy 124.968 103.378)
+			(xy 130.556 104.648) (xy 130.556 109.728)
 		)
 		(stroke
 			(width 0)
@@ -1116,7 +1129,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 112.522) (xy 148.59 114.554)
+			(xy 154.178 118.872) (xy 154.178 120.904)
 		)
 		(stroke
 			(width 0)
@@ -1126,7 +1139,7 @@
 	)
 	(global_label "RF_AUX"
 		(shape input)
-		(at 165.1 101.092 180)
+		(at 170.688 107.442 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1136,7 +1149,7 @@
 		)
 		(uuid "51f1c67d-7420-4099-b0b0-da864dd065a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.16 101.092 0)
+			(at 160.748 107.442 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1150,7 +1163,7 @@
 	)
 	(global_label "RF_TX"
 		(shape output)
-		(at 165.1 95.758 180)
+		(at 170.688 102.108 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1160,7 +1173,7 @@
 		)
 		(uuid "6a426f2e-c248-4aac-802a-7684acc8709a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.6115 95.758 0)
+			(at 162.1995 102.108 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1174,7 +1187,7 @@
 	)
 	(global_label "RF_RX"
 		(shape input)
-		(at 165.1 98.298 180)
+		(at 170.688 104.648 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1184,7 +1197,7 @@
 		)
 		(uuid "a847e9f6-c14d-4714-89c5-6f51b1809cd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.3091 98.298 0)
+			(at 161.8971 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1198,7 +1211,7 @@
 	)
 	(global_label "RF_M0"
 		(shape output)
-		(at 165.1 90.678 180)
+		(at 170.688 97.028 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1208,7 +1221,7 @@
 		)
 		(uuid "c0483f64-d293-4818-9512-16980b984ec7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.1277 90.678 0)
+			(at 161.7157 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1222,7 +1235,7 @@
 	)
 	(global_label "RF_M1"
 		(shape output)
-		(at 165.1 93.218 180)
+		(at 170.688 99.568 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1232,7 +1245,7 @@
 		)
 		(uuid "c9f0c306-48d5-4bfe-b6c3-56d3ae02bb16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.1277 93.218 0)
+			(at 161.7157 99.568 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1251,7 +1264,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 103.886 69.088) (xy 103.886 122.428) (xy 195.834 122.428) (xy 195.834 69.088)
+				(xy 109.474 75.438) (xy 109.474 128.778) (xy 201.422 128.778) (xy 201.422 75.438)
 			)
 			(stroke
 				(width 0)
@@ -1265,7 +1278,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 148.59 108.712 0)
+		(at 154.178 115.062 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1276,7 +1289,7 @@
 		(dnp no)
 		(uuid "2f860325-074b-4310-add6-99e8364c9ba4")
 		(property "Reference" "C50"
-			(at 145.542 107.4419 0)
+			(at 151.13 113.7919 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1287,7 +1300,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 145.542 109.9819 0)
+			(at 151.13 116.3319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1298,7 +1311,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-20_AVX-F"
-			(at 147.6248 112.522 0)
+			(at 153.2128 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1309,7 +1322,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/VISHAY-293D%20SERIES.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 148.59 108.712 0)
+			(at 154.178 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1320,7 +1333,7 @@
 			)
 		)
 		(property "Description" "CAP.TANTAL 100UF 10V 20% (2312)"
-			(at 148.59 108.712 0)
+			(at 154.178 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1331,7 +1344,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/tantal-kapasitorler-178/vishay-293d107x0010c2te3-502187"
-			(at 148.59 108.712 0)
+			(at 154.178 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1342,7 +1355,7 @@
 			)
 		)
 		(property "Part Number" "293D107X0010C2TE3"
-			(at 148.59 108.712 0)
+			(at 154.178 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1369,7 +1382,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.196 107.696 0)
+		(at 176.784 114.046 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1380,7 +1393,7 @@
 		(fields_autoplaced yes)
 		(uuid "52b1daa1-62e4-488b-a5f4-bc49804f769e")
 		(property "Reference" "#PWR0110"
-			(at 171.196 114.046 0)
+			(at 176.784 120.396 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1391,7 +1404,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.196 112.522 0)
+			(at 176.784 118.872 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1401,7 +1414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.196 107.696 0)
+			(at 176.784 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1412,7 +1425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.196 107.696 0)
+			(at 176.784 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1423,7 +1436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.196 107.696 0)
+			(at 176.784 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1447,7 +1460,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 124.968 98.298 0)
+		(at 130.556 104.648 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1458,7 +1471,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aa19220-d881-4252-ae7c-af361fe4c1b7")
 		(property "Reference" "#PWR0111"
-			(at 124.968 102.108 0)
+			(at 130.556 108.458 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1469,7 +1482,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 124.968 93.218 0)
+			(at 130.556 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1479,7 +1492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.968 98.298 0)
+			(at 130.556 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1490,7 +1503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.968 98.298 0)
+			(at 130.556 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1501,7 +1514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 124.968 98.298 0)
+			(at 130.556 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1525,7 +1538,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 124.968 108.712 0)
+		(at 130.556 115.062 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1536,7 +1549,7 @@
 		(dnp no)
 		(uuid "61600ddf-c8da-4b8a-b692-c2bc56d4fe34")
 		(property "Reference" "C34"
-			(at 121.92 107.4419 0)
+			(at 127.508 113.7919 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1547,7 +1560,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 121.92 109.9819 0)
+			(at 127.508 116.3319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1558,7 +1571,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-20_AVX-F"
-			(at 124.0028 112.522 0)
+			(at 129.5908 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1569,7 +1582,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/VISHAY-293D%20SERIES.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 124.968 108.712 0)
+			(at 130.556 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1580,7 +1593,7 @@
 			)
 		)
 		(property "Description" "CAP.TANTAL 100UF 10V 20% (2312)"
-			(at 124.968 108.712 0)
+			(at 130.556 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1591,7 +1604,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/tantal-kapasitorler-178/vishay-293d107x0010c2te3-502187"
-			(at 124.968 108.712 0)
+			(at 130.556 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1602,7 +1615,7 @@
 			)
 		)
 		(property "Part Number" "293D107X0010C2TE3"
-			(at 124.968 108.712 0)
+			(at 130.556 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1629,7 +1642,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 157.48 109.474 0)
+		(at 163.068 115.824 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1639,7 +1652,7 @@
 		(dnp no)
 		(uuid "645a0fd8-419e-4400-b4bc-fa6a994b8b91")
 		(property "Reference" "C51"
-			(at 161.29 108.2039 0)
+			(at 166.878 114.5539 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1650,7 +1663,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 161.29 110.7439 0)
+			(at 166.878 117.0939 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1661,7 +1674,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 158.4452 113.284 0)
+			(at 164.0332 119.634 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1672,7 +1685,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/GRT155R71E104KE01%23.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 157.48 109.474 0)
+			(at 163.068 115.824 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1683,7 +1696,7 @@
 			)
 		)
 		(property "Description" "MLCC (1005) 0402 100nF 25VDC ±10% X7R | Automotive(AEC-Q200)"
-			(at 157.48 109.474 0)
+			(at 163.068 115.824 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1694,7 +1707,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grt155r71e104ke01d-1074547"
-			(at 157.48 109.474 0)
+			(at 163.068 115.824 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1705,7 +1718,7 @@
 			)
 		)
 		(property "Part Number" "GRT155R71E104KE01D"
-			(at 157.48 109.474 0)
+			(at 163.068 115.824 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1732,7 +1745,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 136.398 108.712 0)
+		(at 141.986 115.062 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1743,7 +1756,7 @@
 		(dnp no)
 		(uuid "9f8890e3-0884-44f1-8d3b-a72fe32b9ed0")
 		(property "Reference" "C49"
-			(at 133.35 107.4419 0)
+			(at 138.938 113.7919 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1754,7 +1767,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 133.35 109.9819 0)
+			(at 138.938 116.3319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1765,7 +1778,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-20_AVX-F"
-			(at 135.4328 112.522 0)
+			(at 141.0208 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1776,7 +1789,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/VISHAY-293D%20SERIES.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 136.398 108.712 0)
+			(at 141.986 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1787,7 +1800,7 @@
 			)
 		)
 		(property "Description" "CAP.TANTAL 100UF 10V 20% (2312)"
-			(at 136.398 108.712 0)
+			(at 141.986 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1798,7 +1811,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/tantal-kapasitorler-178/vishay-293d107x0010c2te3-502187"
-			(at 136.398 108.712 0)
+			(at 141.986 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1809,7 +1822,7 @@
 			)
 		)
 		(property "Part Number" "293D107X0010C2TE3"
-			(at 136.398 108.712 0)
+			(at 141.986 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1836,7 +1849,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 116.332 0)
+		(at 145.288 122.682 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1847,7 +1860,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfbee0c4-f16f-4be2-a327-6ea7406686eb")
 		(property "Reference" "#PWR0112"
-			(at 139.7 122.682 0)
+			(at 145.288 129.032 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1858,7 +1871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 120.65 0)
+			(at 145.288 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1868,7 +1881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 116.332 0)
+			(at 145.288 122.682 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1879,7 +1892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 116.332 0)
+			(at 145.288 122.682 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1890,7 +1903,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 116.332 0)
+			(at 145.288 122.682 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1914,7 +1927,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Pin")
-		(at 178.562 98.298 0)
+		(at 184.15 104.648 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1925,7 +1938,7 @@
 		(dnp no)
 		(uuid "f622ef8d-be3b-438b-9db6-36349607c97f")
 		(property "Reference" "J8"
-			(at 179.324 99.5681 0)
+			(at 184.912 105.9181 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1936,7 +1949,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07_Pin"
-			(at 179.324 97.0281 0)
+			(at 184.912 103.3781 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1947,7 +1960,7 @@
 			)
 		)
 		(property "Footprint" "footprints:E32-900T30D"
-			(at 178.562 98.298 0)
+			(at 184.15 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1958,7 +1971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.562 98.298 0)
+			(at 184.15 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1969,7 +1982,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 178.562 98.298 0)
+			(at 184.15 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1980,7 +1993,7 @@
 			)
 		)
 		(property "Distributer Link" ""
-			(at 178.562 98.298 0)
+			(at 184.15 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1991,7 +2004,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 178.562 98.298 0)
+			(at 184.15 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

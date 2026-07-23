@@ -1056,12 +1056,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:IRLML0030"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1069,7 +1067,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1079,8 +1077,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "IRLML0030"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1090,8 +1088,21 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1099,20 +1110,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1123,40 +1124,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "ki_keywords" "N-Channel HEXFET MOSFET Logic-Level"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1167,7 +1135,18 @@
 					)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IRLML0030_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1311,7 +1290,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -1334,11 +1313,11 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "IRLML0030_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1353,10 +1332,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1372,9 +1351,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2012,18 +1991,6 @@
 		(uuid "67a98914-40f1-4b1d-94d4-eafd969f88ba")
 	)
 	(junction
-		(at 181.356 122.428)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "694cfdf1-c6a4-4e82-8e5a-a1a0bd4fd6aa")
-	)
-	(junction
-		(at 240.538 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ddc67ec-8c5b-4535-8680-1654b6f99063")
-	)
-	(junction
 		(at 186.436 88.392)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2046,6 +2013,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9718e722-ff63-4982-bbc5-4725cc2d5a61")
+	)
+	(junction
+		(at 240.538 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d43e450-1bdd-48f8-8336-e2e72417bba1")
 	)
 	(junction
 		(at 53.34 68.58)
@@ -2693,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.538 121.92) (xy 228.6 121.92)
+			(xy 228.6 121.92) (xy 240.538 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2950,6 +2923,16 @@
 			(type default)
 		)
 		(uuid "816d07a4-3dd6-4627-a452-1c755e07b967")
+	)
+	(wire
+		(pts
+			(xy 240.538 121.92) (xy 240.538 122.174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8420ff8a-93de-4f59-a4f5-d1a3a7af542b")
 	)
 	(wire
 		(pts
@@ -3500,16 +3483,6 @@
 			(type default)
 		)
 		(uuid "caa092fd-2bc1-4264-a580-4d3dbfea3de2")
-	)
-	(wire
-		(pts
-			(xy 240.538 121.92) (xy 240.538 122.174)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd046534-f0a4-4928-b4e2-e3103e7807ae")
 	)
 	(wire
 		(pts
@@ -8508,94 +8481,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.784 82.804 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1877dc9e-3b02-4509-995a-a51ee02ea397")
-		(property "Reference" "R46"
-			(at 179.578 81.5339 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 179.578 84.0739 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.006 82.804 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.784 82.804 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 176.784 82.804 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f0eabc12-8786-4cf5-98e8-222f4bea9cae")
-		)
-		(pin "2"
-			(uuid "c56eca2b-9f48-48e6-a657-a77bceafdea8")
-		)
-		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 62.23 159.258 270)
 		(unit 1)
 		(body_style 1)
@@ -8696,94 +8581,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 177.8 141.986 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ce9b486-0db8-4a57-b7cc-1271e094e9ab")
-		(property "Reference" "R43"
-			(at 180.594 140.7159 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 180.594 143.2559 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.022 141.986 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 141.986 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 141.986 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd9e798d-55ed-4dbb-a838-77b2ed653ee9")
-		)
-		(pin "2"
-			(uuid "ae4e6077-a0de-40dc-bce7-37df9ddedee9")
-		)
-		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 71.628 59.944 0)
 		(unit 1)
@@ -8862,6 +8659,94 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 183.896 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22b1fac4-2dbd-4cda-815f-a23468b4f6df")
+		(property "Reference" "Q6"
+			(at 189.992 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML0030"
+			(at 189.992 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 188.976 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 188.976 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 183.896 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6829738e-066e-4177-91d4-e1c282f9709c")
+		)
+		(pin "3"
+			(uuid "bd5a68d7-608f-46f4-857d-ee003c8e2041")
+		)
+		(pin "1"
+			(uuid "8ddfffad-17de-47fb-b3ea-6aa17a882186")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -9765,94 +9650,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 181.356 118.618 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "538975af-835b-4ea4-b7ef-2d892ae81e32")
-		(property "Reference" "R12"
-			(at 178.816 117.3479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 178.816 119.8879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 183.134 118.618 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.356 118.618 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.356 118.618 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bd1e27ae-9c1a-429b-a29a-7947434adb54")
-		)
-		(pin "2"
-			(uuid "cb023066-a0a2-4040-9d29-78b2cd803678")
-		)
-		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 155.956 66.548 0)
 		(unit 1)
@@ -10360,93 +10157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 240.538 125.984 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6117c274-92c7-43ed-b16e-047a6a31f215")
-		(property "Reference" "R49"
-			(at 237.744 124.7139 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R"
-			(at 237.744 127.2539 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 125.984 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.538 125.984 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 240.538 125.984 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8ac1abb9-7e0f-4200-87ef-4a5f4844a9cf")
-		)
-		(pin "1"
-			(uuid "1e8015d7-9980-4bd4-83b1-2709ff22d4dc")
-		)
-		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "R49")
-					(unit 1)
-				)
-			)
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 222.504 58.42 0)
 		(unit 1)
@@ -10795,6 +10505,94 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 184.912 137.668 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69d66d1e-85a8-4040-983e-5880c359878e")
+		(property "Reference" "Q9"
+			(at 191.008 136.3979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML0030"
+			(at 191.008 138.9379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 189.992 139.573 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 189.992 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 184.912 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "64c04df6-2a15-4f16-afb3-b94926f3a0fb")
+		)
+		(pin "3"
+			(uuid "d2551468-af97-4345-95a7-0e5316a4b358")
+		)
+		(pin "1"
+			(uuid "b0f91a0a-057d-4923-822c-09a1a12caa25")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -11209,7 +11007,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 244.856 68.072 0)
+		(at 176.784 82.804 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11217,31 +11016,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "72d7c779-8e31-4e3d-bc8e-628e97e03dbf")
-		(property "Reference" "R51"
-			(at 242.062 66.8019 0)
+		(uuid "75f5fb49-bf3a-4da5-85b9-b0937b79435f")
+		(property "Reference" "R91"
+			(at 174.879 81.5339 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 242.062 69.3419 0)
+		(property "Value" "10k"
+			(at 174.879 84.0739 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 243.078 68.072 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 178.562 82.804 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11251,8 +11050,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 244.856 68.072 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 176.784 82.804 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11262,8 +11061,30 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 244.856 68.072 0)
+		(property "Description" "RES.(1005) 0402 10K Ohms 1% 1/16W AUTOMOTIV"
+			(at 176.784 82.804 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf1002tce-587902"
+			(at 176.784 82.804 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF1002TCE"
+			(at 176.784 82.804 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11274,21 +11095,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "61f636b0-0b89-4ea5-86a7-ea2b08028ffb")
+			(uuid "6141e83f-55f9-49c7-8c38-0fc9dc5b8440")
 		)
 		(pin "1"
-			(uuid "668b68a9-2658-4ca4-8669-188441641fd7")
+			(uuid "86a185f8-356b-4c47-8229-91dac5498989")
 		)
 		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "R51")
-					(unit 1)
-				)
-			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "R51")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -11456,8 +11271,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 184.912 137.668 0)
+		(lib_id "Device:R")
+		(at 244.856 68.072 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11465,10 +11281,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a5d35ab-5b5a-4e4b-bccf-0379eeb65c4c")
-		(property "Reference" "Q4"
-			(at 190.627 136.3979 0)
+		(uuid "7d0af9e4-6908-42de-a967-d9970fa11e93")
+		(property "Reference" "R87"
+			(at 242.951 66.8019 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11478,8 +11293,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
-			(at 190.627 138.9379 0)
+		(property "Value" "10k"
+			(at 242.951 69.3419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11489,8 +11304,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.992 135.128 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 246.634 68.072 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11500,8 +11315,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 184.912 150.368 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 244.856 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11511,8 +11326,8 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 184.912 137.668 0)
+		(property "Description" "RES.(1005) 0402 10K Ohms 1% 1/16W AUTOMOTIV"
+			(at 244.856 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11522,8 +11337,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "NMOS"
-			(at 184.912 154.813 0)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf1002tce-587902"
+			(at 244.856 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11533,8 +11348,8 @@
 				)
 			)
 		)
-		(property "Sim.Type" "VDMOS"
-			(at 184.912 156.718 0)
+		(property "Part Number" "CQ02WGF1002TCE"
+			(at 244.856 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11543,37 +11358,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 184.912 152.908 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "091e684a-4917-4316-8c34-00899d220c47")
 		)
 		(pin "2"
-			(uuid "23084ae1-61f0-484c-baa3-f2e818c93c02")
+			(uuid "f7d2aa4e-a350-4ab8-a1c8-71e0c1cd2ae8")
 		)
 		(pin "1"
-			(uuid "86973c60-5d70-407f-bd5c-c69b4b26b202")
+			(uuid "75b44b18-caaa-49dd-8d12-0ae5c32af915")
 		)
 		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "Q4")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -12048,7 +11843,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.102 57.912 0)
+		(at 245.364 84.074 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12056,31 +11852,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8984b833-92e0-4ad5-b03f-71a55a024207")
-		(property "Reference" "R15"
-			(at 178.308 56.6419 0)
+		(uuid "89295587-f31a-42cb-a424-25c6fb464753")
+		(property "Reference" "R88"
+			(at 243.459 82.8039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 178.308 59.1819 0)
+		(property "Value" "10k"
+			(at 243.459 85.3439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.324 57.912 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 247.142 84.074 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12090,8 +11886,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 181.102 57.912 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 245.364 84.074 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12101,8 +11897,30 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 181.102 57.912 0)
+		(property "Description" "RES.(1005) 0402 10K Ohms 1% 1/16W AUTOMOTIV"
+			(at 245.364 84.074 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf1002tce-587902"
+			(at 245.364 84.074 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF1002TCE"
+			(at 245.364 84.074 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12113,21 +11931,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "512a5f5b-9d68-4392-ac97-a8ac596e11d2")
+			(uuid "67c1cb40-5625-446b-8fed-f21606de8763")
 		)
 		(pin "1"
-			(uuid "55e873df-aef6-4c07-840d-eaec31d47cd3")
+			(uuid "4a9349fb-6237-46a8-9600-8fb48e98d402")
 		)
 		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "R15")
-					(unit 1)
-				)
-			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "R15")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -12218,8 +12030,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 183.896 77.47 0)
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 244.856 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12228,9 +12040,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8cd55e73-e7ca-42c4-8955-e0cccbc1a0c8")
-		(property "Reference" "Q5"
-			(at 189.611 76.1999 0)
+		(uuid "8c9a7b5b-fc5c-4f53-ac00-76a02eeb9a62")
+		(property "Reference" "Q11"
+			(at 250.952 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12240,8 +12052,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
-			(at 189.611 78.7399 0)
+		(property "Value" "IRLML0030"
+			(at 250.952 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12251,8 +12063,33 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 188.976 74.93 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 249.936 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 249.936 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 244.856 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12262,291 +12099,19 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 183.896 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 183.896 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 183.896 94.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 183.896 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 183.896 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "2"
+			(uuid "97d957e8-eb63-4687-9f5f-b94ca9b0189e")
 		)
 		(pin "3"
-			(uuid "32de838d-3468-4d26-b1df-e982e0047840")
-		)
-		(pin "2"
-			(uuid "3818c132-278b-41f2-9cd7-2f8e07739651")
+			(uuid "3516ac49-e02b-4d5d-b0c8-251a6981b251")
 		)
 		(pin "1"
-			(uuid "61a835ed-f529-4c71-9453-8129e20bc43e")
+			(uuid "8e87ded7-73c4-4a26-b440-1d204d7c35d6")
 		)
 		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 251.206 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92d3c649-0210-4f5a-8a36-a79334da00b6")
-		(property "Reference" "Q2"
-			(at 256.921 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 256.921 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.286 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 251.206 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 251.206 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 251.206 95.885 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 251.206 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 251.206 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f0bf2178-41ec-4949-b5e1-b525e506d4e3")
-		)
-		(pin "2"
-			(uuid "74382182-43bf-45a0-9b1e-485bf0dcf23e")
-		)
-		(pin "1"
-			(uuid "b85fd5ec-0538-4e1d-9fde-dccd3f9313be")
-		)
-		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 244.856 59.436 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93cfd584-6f71-4a8c-b8e5-971dafacd7a2")
-		(property "Reference" "R50"
-			(at 242.062 58.1659 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R"
-			(at 242.062 60.7059 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.078 59.436 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 244.856 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 244.856 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "938567a1-1b1b-49be-b8a5-3cfccaac10e3")
-		)
-		(pin "1"
-			(uuid "ec0bd14c-6282-405e-aa85-705fb794fe4d")
-		)
-		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "R50")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -12631,93 +12196,6 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 240.538 117.602 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99673c59-f294-4474-9222-bf0247394d66")
-		(property "Reference" "R48"
-			(at 237.744 116.3319 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R"
-			(at 237.744 118.8719 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 117.602 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.538 117.602 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 240.538 117.602 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2277202a-39f4-484b-8e13-c45fe1111774")
-		)
-		(pin "1"
-			(uuid "86bd3109-dea3-4b16-a5e3-588da598d040")
-		)
-		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -13052,130 +12530,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 244.856 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a56fd0d3-ef95-475b-a95b-87d7a705204a")
-		(property "Reference" "Q3"
-			(at 250.571 132.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 250.571 134.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 249.936 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 244.856 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 244.856 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 244.856 150.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 244.856 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 244.856 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "ed24625c-620e-4863-a171-9baa26e8ab87")
-		)
-		(pin "2"
-			(uuid "b5573268-da39-42e8-ae5f-7ef863dc1f59")
-		)
-		(pin "1"
-			(uuid "a62a43ca-3158-46e5-b471-384765447a53")
-		)
-		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 253.746 92.202 0)
 		(unit 1)
@@ -13370,94 +12724,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.356 126.492 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a9ae5400-c6dd-4b54-9914-980764dddc1a")
-		(property "Reference" "R13"
-			(at 178.816 125.2219 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 178.816 127.7619 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 183.134 126.492 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.356 126.492 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.356 126.492 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd5ba4d2-7a3b-4595-9a84-7acd4e784c0e")
-		)
-		(pin "2"
-			(uuid "6805a710-3ac3-4b33-bc72-aee5e199f856")
-		)
-		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 171.958 77.47 90)
 		(unit 1)
 		(body_style 1)
@@ -13537,6 +12803,94 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 251.206 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad73e362-935e-4a2c-a113-2cd83f78181b")
+		(property "Reference" "Q8"
+			(at 257.302 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML0030"
+			(at 257.302 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 256.286 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 256.286 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 251.206 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "50b3a393-2432-49eb-b6f5-8d428e754378")
+		)
+		(pin "3"
+			(uuid "62a56724-adf5-4aa3-b949-6e387e1cdc74")
+		)
+		(pin "1"
+			(uuid "00d94cdd-2660-4fba-a5c2-d2c612086737")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -13925,6 +13279,214 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.356 126.492 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b90d2b5a-0f7e-40a0-b061-bb70e8466fcc")
+		(property "Reference" "R85"
+			(at 179.451 125.2219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 179.451 127.7619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 183.134 126.492 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 181.356 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 10K Ohms 1% 1/16W AUTOMOTIV"
+			(at 181.356 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf1002tce-587902"
+			(at 181.356 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF1002TCE"
+			(at 181.356 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f221b872-79d8-4732-8223-bd8e7b80cf6a")
+		)
+		(pin "1"
+			(uuid "22be3380-31cf-4809-9ca9-31574ac1b380")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 244.856 59.436 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bdcc02a5-a7d8-4b50-aed4-5ea0ed96252b")
+		(property "Reference" "R82"
+			(at 242.951 58.1659 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "28k"
+			(at 242.951 60.7059 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 246.634 59.436 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/crcwce3.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 244.856 59.436 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 28K Ohms 1% 1/16W 100PPM Automotive(AEC-Q200)"
+			(at 244.856 59.436 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/vishay-crcw040228k0fked-531987"
+			(at 244.856 59.436 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW040228K0FKED"
+			(at 244.856 59.436 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4743c213-e625-46c4-9ef0-45a670f35ee3")
+		)
+		(pin "1"
+			(uuid "ca6b5b45-7c19-4282-b8f8-0f357216ad69")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -14354,6 +13916,110 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 237.744 138.684 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cdaedea1-f6bc-42b3-a914-c9654284faea")
+		(property "Reference" "R89"
+			(at 235.839 137.4139 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 235.839 139.9539 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 239.522 138.684 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 237.744 138.684 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 10K Ohms 1% 1/16W AUTOMOTIV"
+			(at 237.744 138.684 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf1002tce-587902"
+			(at 237.744 138.684 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF1002TCE"
+			(at 237.744 138.684 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "662f5113-4f3a-4487-a0fe-4b461d3f6154")
+		)
+		(pin "1"
+			(uuid "de0ef8cd-5de6-4685-9a49-15aa853a1f9b")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
+					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 46.99 53.34 0)
 		(mirror y)
 		(unit 1)
@@ -14457,6 +14123,110 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.538 117.602 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce66c3e6-e647-49ab-b08b-96de834edd64")
+		(property "Reference" "R83"
+			(at 238.633 116.3319 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "28k"
+			(at 238.633 118.8719 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 242.316 117.602 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/crcwce3.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 240.538 117.602 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 28K Ohms 1% 1/16W 100PPM Automotive(AEC-Q200)"
+			(at 240.538 117.602 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/vishay-crcw040228k0fked-531987"
+			(at 240.538 117.602 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW040228K0FKED"
+			(at 240.538 117.602 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1161eb2b-0940-4d1a-af95-336fb35d3670")
+		)
+		(pin "1"
+			(uuid "bee7637c-2425-44bf-8cde-6404b9c504b1")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -14715,6 +14485,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 181.102 66.548 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc568707-1f0c-4b78-a503-e6ce89586433")
+		(property "Reference" "R81"
+			(at 179.197 65.2779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 179.197 67.8179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 182.88 66.548 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 181.102 66.548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 10K Ohms 1% 1/16W AUTOMOTIV"
+			(at 181.102 66.548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf1002tce-587902"
+			(at 181.102 66.548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF1002TCE"
+			(at 181.102 66.548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bfa44e30-5691-4215-915d-b485a03e2c01")
+		)
+		(pin "1"
+			(uuid "30a193ce-6f3f-4cc1-8740-69764cb88e42")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 253.238 57.404 0)
 		(unit 1)
@@ -14793,6 +14667,214 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.538 125.984 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e03cce77-8a4a-47e2-aeae-b6875f11c450")
+		(property "Reference" "R86"
+			(at 238.633 124.7139 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 238.633 127.2539 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 242.316 125.984 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 240.538 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 10K Ohms 1% 1/16W AUTOMOTIV"
+			(at 240.538 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf1002tce-587902"
+			(at 240.538 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF1002TCE"
+			(at 240.538 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9aef6706-3028-43de-984e-676594a65532")
+		)
+		(pin "1"
+			(uuid "a1910a00-359a-4fa1-aa9e-4ab1379c3064")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.356 118.618 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e21a8be1-f306-4933-9797-f930fe11cfab")
+		(property "Reference" "R84"
+			(at 179.451 117.3479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "28k"
+			(at 179.451 119.8879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 183.134 118.618 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/crcwce3.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 181.356 118.618 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 28K Ohms 1% 1/16W 100PPM Automotive(AEC-Q200)"
+			(at 181.356 118.618 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/vishay-crcw040228k0fked-531987"
+			(at 181.356 118.618 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW040228K0FKED"
+			(at 181.356 118.618 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bcd81382-f492-4bc6-a061-eb2ad5cf10b1")
+		)
+		(pin "1"
+			(uuid "5c8989a8-25d3-4c22-a902-ad42c5e2778a")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -15091,7 +15173,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 245.364 84.074 0)
+		(at 177.8 141.986 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15100,9 +15182,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e74a760a-dfeb-495a-90a9-48637ccaad35")
-		(property "Reference" "R33"
-			(at 242.57 82.8039 0)
+		(uuid "ec2cb2af-9077-49ab-aaf1-524db843cc7f")
+		(property "Reference" "R90"
+			(at 175.895 140.7159 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15112,8 +15194,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 242.57 85.3439 0)
+		(property "Value" "10k"
+			(at 175.895 143.2559 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15123,8 +15205,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 247.142 84.074 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 179.578 141.986 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15134,8 +15216,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 245.364 84.074 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 177.8 141.986 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15145,8 +15227,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 245.364 84.074 0)
+		(property "Description" "RES.(1005) 0402 10K Ohms 1% 1/16W AUTOMOTIV"
+			(at 177.8 141.986 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15156,22 +15238,142 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "1d0efba0-48ab-4e3b-a7d4-7ec36622a7ff")
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf1002tce-587902"
+			(at 177.8 141.986 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF1002TCE"
+			(at 177.8 141.986 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "4085caa3-6379-404c-bbff-ec1f1175e46b")
+			(uuid "21880e5d-464a-4735-824d-1c25f88183bc")
+		)
+		(pin "1"
+			(uuid "6a728139-6cfe-4f07-9444-a2ace6cee6e0")
 		)
 		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "R33")
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
+					(reference "R90")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.102 57.912 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed019a1c-ccf8-492e-9863-ec0bbd10cdeb")
+		(property "Reference" "R80"
+			(at 179.197 56.6419 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "28k"
+			(at 179.197 59.1819 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 182.88 57.912 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/crcwce3.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 181.102 57.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 28K Ohms 1% 1/16W 100PPM Automotive(AEC-Q200)"
+			(at 181.102 57.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/vishay-crcw040228k0fked-531987"
+			(at 181.102 57.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW040228K0FKED"
+			(at 181.102 57.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c8912a7-a555-4522-a36a-a79eb7126daa")
+		)
+		(pin "1"
+			(uuid "4bb29fc4-6a2f-451d-8166-3f8ec1e52f1a")
+		)
+		(instances
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "R33")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -15454,181 +15656,6 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 181.102 66.548 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fb6c5a63-125c-42fc-b1f4-0aaacfab3d7a")
-		(property "Reference" "R47"
-			(at 178.308 65.2779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R"
-			(at 178.308 67.8179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.324 66.548 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.102 66.548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.102 66.548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "44ff0942-bd2b-4cb6-99a6-9be9b835b571")
-		)
-		(pin "1"
-			(uuid "e7c68899-c088-481f-9826-7c53d967d545")
-		)
-		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 237.744 138.684 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbe2782c-72b3-4e30-9d4e-a83687e964d2")
-		(property "Reference" "R40"
-			(at 240.538 137.4139 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 240.538 139.9539 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 235.966 138.684 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.744 138.684 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.744 138.684 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95d672b3-513a-4e71-a263-c241a558b6ad")
-		)
-		(pin "2"
-			(uuid "bf04f328-867c-4105-877b-3cd178d81371")
-		)
-		(instances
-			(project "Connections_relays"
-				(path "/141eb024-d383-471f-8db6-5cddd4f42575"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/07d19467-7f8f-439c-a804-3c86584a36a4"
-					(reference "R40")
 					(unit 1)
 				)
 			)

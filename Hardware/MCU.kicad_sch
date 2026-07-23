@@ -13093,7 +13093,7 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/discrete-transistorler-442/onsem-bc847cwt1g-1594721"
+		(property "Distributer Link" "https://www.e-komponent.com/bc817-40w-r1-00001-panjit-international-bipolar-transistor-tekli"
 			(at 261.493 118.364 0)
 			(hide yes)
 			(show_name no)
@@ -13104,7 +13104,7 @@
 				)
 			)
 		)
-		(property "Part Number" "BC847CWT1G"
+		(property "Part Number" "BC817-40W_R1_00001 "
 			(at 261.493 118.364 0)
 			(hide yes)
 			(show_name no)
@@ -14182,7 +14182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 265.43 69.342 90)
 			(hide yes)
 			(show_name no)
@@ -14193,7 +14193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8796741599262/ENFA0004.pdf"
 			(at 265.43 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14205,6 +14205,28 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 265.43 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.e-komponent.com/blm18he601sn1d-murata-electronics-ferit-bead-ve-cip"
+			(at 265.43 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BLM18HE601SN1D"
 			(at 265.43 71.12 0)
 			(hide yes)
 			(show_name no)
