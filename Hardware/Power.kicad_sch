@@ -11392,7 +11392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/general_royalohm.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+		(property "Datasheet" "vishay.com/doc?28705"
 			(at 207.518 45.974 0)
 			(hide yes)
 			(show_name no)
@@ -11403,7 +11403,7 @@
 				)
 			)
 		)
-		(property "Description" "RES.(1005) 0402 28K Ohms 1% 1/16W 100PPM Automotive(AEC-Q200)"
+		(property "Description" "Thin Film Resistors - SMD MCT 0603-50 1% P5 28K"
 			(at 207.518 45.974 0)
 			(hide yes)
 			(show_name no)
@@ -11414,7 +11414,7 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-0603saf2802t5e-505932"
+		(property "Distributer Link" "https://www.mouser.com.tr/en/ProductDetail/Vishay-Beyschlag/MCT06030C2802FP500?qs=hjSuqQECij8jE6Kw0BZ0wA%3D%3D"
 			(at 207.518 45.974 0)
 			(hide yes)
 			(show_name no)
@@ -11425,7 +11425,7 @@
 				)
 			)
 		)
-		(property "Part Number" "0603SAF2802T5E"
+		(property "Part Number" "MCT06030C2802FP500"
 			(at 207.518 45.974 0)
 			(hide yes)
 			(show_name no)
@@ -14570,7 +14570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 76.708 90)
 			(hide yes)
 			(show_name no)
@@ -14581,7 +14581,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com.tr/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf"
 			(at 118.618 76.708 0)
 			(hide yes)
 			(show_name no)
@@ -14592,7 +14592,7 @@
 				)
 			)
 		)
-		(property "Description" "RES.(1005) 0402 53.6K Ohms 1% 1/16W 100PPM"
+		(property "Description" "Thin Film Resistors - SMD 1/10W 53.6K ohm .1% 25ppm"
 			(at 118.618 76.708 0)
 			(hide yes)
 			(show_name no)
@@ -14603,7 +14603,7 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-0402wgf5362tce-506373"
+		(property "Distributer Link" "https://www.mouser.com.tr/en/ProductDetail/YAGEO/RT0603BRD0753K6L?qs=gY0y7AQI9SNAby5h%2F1y0lQ%3D%3D"
 			(at 118.618 76.708 0)
 			(hide yes)
 			(show_name no)
@@ -14614,7 +14614,7 @@
 				)
 			)
 		)
-		(property "Part Number" "0402WGF5362TCE"
+		(property "Part Number" "RT0603BRD0753K6L"
 			(at 118.618 76.708 0)
 			(hide yes)
 			(show_name no)
@@ -15151,7 +15151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 75.438 78.994 90)
 			(hide yes)
 			(show_name no)
@@ -15162,7 +15162,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/dcrcwe3.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+		(property "Datasheet" "https://www.mouser.com.tr/en/ProductDetail/YAGEO/RT0603FRE0744K2L?qs=4CyHz7GXqSgyo9YOc1MhMQ%3D%3D"
 			(at 77.216 78.994 0)
 			(hide yes)
 			(show_name no)
@@ -15173,7 +15173,7 @@
 				)
 			)
 		)
-		(property "Description" "RES.(1005) 0402 42.2K Ohms 1% 1/16W 100PPM"
+		(property "Description" "Thin Film Resistors - SMD 1/10W 44.2K ohm 1% 50ppm"
 			(at 77.216 78.994 0)
 			(hide yes)
 			(show_name no)
@@ -15184,7 +15184,7 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/vishay-crcw040242k2fked-516132"
+		(property "Distributer Link" "https://www.mouser.com.tr/en/ProductDetail/YAGEO/RT0603FRE0744K2L?qs=4CyHz7GXqSgyo9YOc1MhMQ%3D%3D"
 			(at 77.216 78.994 0)
 			(hide yes)
 			(show_name no)
@@ -15195,7 +15195,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RC0402FR-0744K2L"
+		(property "Part Number" "RT0603FRE0744K2L"
 			(at 77.216 78.994 0)
 			(hide yes)
 			(show_name no)
@@ -21895,7 +21895,7 @@
 				)
 			)
 		)
-		(property "Value" "10m"
+		(property "Value" "5m"
 			(at 38.608 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21916,7 +21916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/OHMITE_res_pcs.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+		(property "Datasheet" "https://www.mouser.com.tr/en/ProductDetail/Vishay-Dale/WSLP12065L000FEA?qs=eFWhpKjIuGhd%2FhmgEVginw%3D%3D"
 			(at 38.608 63.246 0)
 			(hide yes)
 			(show_name no)
@@ -21927,7 +21927,7 @@
 				)
 			)
 		)
-		(property "Description" "RES.(3216) 1206 10m Ohms 0.5% 1W AEC-Q200"
+		(property "Description" "Current Sense Resistors - SMD 1Watt 0.005Ohms 1%"
 			(at 38.608 63.246 0)
 			(hide yes)
 			(show_name no)
@@ -21938,7 +21938,7 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/ohmite-pcs1206dr0100et-955732"
+		(property "Distributer Link" "http://mouser.com.tr/en/ProductDetail/Vishay-Dale/WSLP12065L000FEA?qs=eFWhpKjIuGhd%2FhmgEVginw%3D%3D"
 			(at 38.608 63.246 0)
 			(hide yes)
 			(show_name no)
@@ -21949,7 +21949,7 @@
 				)
 			)
 		)
-		(property "Part Number" "PCS1206DR0100ET"
+		(property "Part Number" "WSLP12065L000FEA "
 			(at 38.608 63.246 0)
 			(hide yes)
 			(show_name no)
