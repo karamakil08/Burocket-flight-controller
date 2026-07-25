@@ -13866,26 +13866,28 @@
 		(fields_autoplaced yes)
 		(uuid "7dcd8853-3076-4892-8ef6-4b845570cb44")
 		(property "Reference" "U7"
-			(at 110.49 113.538 0)
+			(at 95.1073 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "ADXL375BCCZ-RL7"
-			(at 110.49 116.078 0)
+		(property "Value" "ADXL375"
+			(at 95.1073 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ADXL375BCCZ_RL7:LGA_CC-14-1_ADI"
+		(property "Footprint" "ADXL375BCCZ_RL7:LGA_CC-14-1_ADI-L"
 			(at 72.644 126.238 0)
 			(hide yes)
 			(show_name no)
@@ -13931,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "ADXL375"
 			(at 94.234 133.858 0)
 			(hide yes)
 			(show_name no)
