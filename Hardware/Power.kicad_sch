@@ -4571,7 +4571,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.368 63.246) (xy 60.198 63.246)
+			(xy 23.368 63.246) (xy 34.798 63.246)
 		)
 		(stroke
 			(width 0)
@@ -4838,6 +4838,16 @@
 			(type default)
 		)
 		(uuid "e709e3b7-4ad0-4384-a7de-b56ed9b61386")
+	)
+	(wire
+		(pts
+			(xy 42.418 63.246) (xy 60.198 63.246)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78655a9-838f-4613-8f73-dee7d7571e18")
 	)
 	(wire
 		(pts
@@ -9487,6 +9497,26 @@
 			(justify right bottom)
 		)
 		(uuid "4247c03b-ea8a-49ee-aff7-b98a0ab09390")
+	)
+	(label "shunt-"
+		(at 42.418 63.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52a026d1-9a1d-432d-84ed-16d220e4bdab")
+	)
+	(label "shunt+"
+		(at 34.798 63.246 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "caa1dca1-85f7-4504-9778-3d49ac58521b")
 	)
 	(label "shunt+"
 		(at 201.168 139.192 180)
@@ -21838,6 +21868,108 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/4f4e3209-699f-4841-81bd-9de78787b576"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.608 63.246 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f35779f2-1ca4-4703-ae74-da058acebb1d")
+		(property "Reference" "R_Shunt1"
+			(at 38.608 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10m"
+			(at 38.608 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 38.608 65.024 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/OHMITE_res_pcs.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 38.608 63.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(3216) 1206 10m Ohms 0.5% 1W AEC-Q200"
+			(at 38.608 63.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/ohmite-pcs1206dr0100et-955732"
+			(at 38.608 63.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "PCS1206DR0100ET"
+			(at 38.608 63.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "97acdbb4-30c2-47be-8657-90635270142a")
+		)
+		(pin "1"
+			(uuid "7f1c3ae2-fe3b-4b97-a428-c7c601bffd30")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/4f4e3209-699f-4841-81bd-9de78787b576"
+					(reference "R_Shunt1")
 					(unit 1)
 				)
 			)
