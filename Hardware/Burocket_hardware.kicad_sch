@@ -11,9 +11,34 @@
 		(company "Burocket")
 	)
 	(lib_symbols)
+	(text "BuRocket Flight Controller"
+		(exclude_from_sim no)
+		(at 68.58 20.32 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "39f9711b-a255-4062-8407-b27d76a84b1c")
+	)
+	(text "JLCPCB Stack-up"
+		(exclude_from_sim no)
+		(at 51.054 130.302 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.4763)
+			)
+			(justify left)
+		)
+		(uuid "3a50e5b5-2889-4c70-9fed-ee372b8a1803")
+	)
 	(text "TODO:\n- Must change nmos driving E-match\n- Consider Passive components\n\n- Consider and thoroughly check all footprints\n"
 		(exclude_from_sim no)
-		(at -211.582 50.038 0)
+		(at -204.216 54.102 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -26,7 +51,7 @@
 	)
 	(text "Note:\n- Buzzer simulation don't \nreally match \n"
 		(exclude_from_sim no)
-		(at -117.856 184.912 0)
+		(at -203.454 92.456 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -38,7 +63,7 @@
 		(uuid "89158550-c38f-4ea0-9be8-3ce87aea387c")
 	)
 	(image
-		(at 68.58 29.464)
+		(at 80.772 155.702)
 		(uuid "99c60ebe-ee98-4a73-89fb-80ea7b621483")
 		(data "iVBORw0KGgoAAAANSUhEUgAABS8AAAGVCAIAAACQNJMeAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOy9d5ReV3X3/937nFueMk29WcWyLMlyB/cmdxvTbCBAQioQfpSEFjpxwkt934DDSzckgEMAN2zj"
@@ -2977,8 +3002,27 @@
 			"t83/B6eUGexebs7lAAAAAElFTkSuQmCC"
 		)
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 20.828 124.714) (xy 20.828 174.498) (xy 140.208 174.498) (xy 140.208 124.714)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "96735e70-dfde-4eb2-ba46-67944183151f")
+		)
+	)
 	(sheet
-		(at 131.572 77.978)
+		(at 130.302 47.244)
 		(size 18.288 14.478)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2994,7 +3038,7 @@
 		)
 		(uuid "07d19467-7f8f-439c-a804-3c86584a36a4")
 		(property "Sheetname" "Connections_relays"
-			(at 131.572 77.2664 0)
+			(at 130.302 46.5324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3005,7 +3049,7 @@
 			)
 		)
 		(property "Sheetfile" "Connections_relays.kicad_sch"
-			(at 131.572 93.0406 0)
+			(at 130.302 62.3066 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3024,7 +3068,7 @@
 		)
 	)
 	(sheet
-		(at 132.588 101.854)
+		(at 131.318 71.12)
 		(size 19.05 13.335)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3040,7 +3084,7 @@
 		)
 		(uuid "354a9b13-cd42-432b-a355-1b4f82c7a180")
 		(property "Sheetname" "Sensors"
-			(at 132.588 101.1424 0)
+			(at 131.318 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3051,7 +3095,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 132.588 115.7736 0)
+			(at 131.318 85.0396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3070,7 +3114,7 @@
 		)
 	)
 	(sheet
-		(at 107.696 101.854)
+		(at 106.426 71.12)
 		(size 19.05 13.335)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3086,7 +3130,7 @@
 		)
 		(uuid "4f4e3209-699f-4841-81bd-9de78787b576")
 		(property "Sheetname" "Power"
-			(at 107.696 101.1424 0)
+			(at 106.426 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3097,7 +3141,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 107.696 115.7736 0)
+			(at 106.426 85.0396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3116,7 +3160,7 @@
 		)
 	)
 	(sheet
-		(at 108.204 76.962)
+		(at 106.934 46.228)
 		(size 20.066 16.002)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3132,7 +3176,7 @@
 		)
 		(uuid "7e969557-1fa7-4fb3-8ee1-1ba2f7c36487")
 		(property "Sheetname" "MCU"
-			(at 108.204 76.2504 0)
+			(at 106.934 45.5164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3143,7 +3187,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 108.204 93.5486 0)
+			(at 106.934 62.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3162,7 +3206,7 @@
 		)
 	)
 	(sheet
-		(at 155.448 101.727)
+		(at 154.178 70.993)
 		(size 17.78 13.335)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3178,7 +3222,7 @@
 		)
 		(uuid "a19783cd-93e1-45ac-86f9-c63473691f8a")
 		(property "Sheetname" "LoRa"
-			(at 155.448 101.0154 0)
+			(at 154.178 70.2814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3189,7 +3233,7 @@
 			)
 		)
 		(property "Sheetfile" "LoRa.kicad_sch"
-			(at 155.448 115.6466 0)
+			(at 154.178 84.9126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3208,7 +3252,7 @@
 		)
 	)
 	(sheet
-		(at 155.702 77.724)
+		(at 154.432 46.99)
 		(size 19.558 13.462)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3224,7 +3268,7 @@
 		)
 		(uuid "fd943158-d042-4f4a-9023-ff2a53837944")
 		(property "Sheetname" "USB-c"
-			(at 155.702 77.0124 0)
+			(at 154.432 46.2784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3235,7 +3279,7 @@
 			)
 		)
 		(property "Sheetfile" "USB-c.kicad_sch"
-			(at 155.702 91.7706 0)
+			(at 154.432 61.0366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

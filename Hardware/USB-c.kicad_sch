@@ -1856,10 +1856,10 @@
 		(uuid "090ac11c-05fe-47ea-b702-fa04c6cb879f")
 	)
 	(junction
-		(at 201.549 100.076)
+		(at 176.784 111.506)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "096f0458-4a95-4c98-b32d-2da1bfc0b917")
+		(uuid "3a6703dc-0423-4f84-bf95-f435ebc5e1f2")
 	)
 	(junction
 		(at 175.514 100.076)
@@ -1868,16 +1868,16 @@
 		(uuid "954ed5c3-a21e-4f93-93d4-5a615d920c6d")
 	)
 	(junction
-		(at 176.784 111.506)
+		(at 201.422 100.076)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a11d2acc-e801-4abc-b88c-e70c6a6198c4")
+		(uuid "ac3232b4-907f-4fca-a4a5-d5ea220bb33c")
 	)
 	(junction
-		(at 185.039 100.076)
+		(at 184.404 100.076)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e70aad35-0f45-4647-91bb-105dcc00d114")
+		(uuid "e2565714-7a38-4e14-bb09-0e5ddf5dd99d")
 	)
 	(junction
 		(at 162.179 100.076)
@@ -1895,7 +1895,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.514 100.076) (xy 185.039 100.076)
+			(xy 175.514 100.076) (xy 184.404 100.076)
 		)
 		(stroke
 			(width 0)
@@ -1905,17 +1905,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.039 101.981) (xy 185.039 100.076)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "177b1a83-9790-4945-be6d-d57e745c0e3e")
-	)
-	(wire
-		(pts
-			(xy 142.494 101.981) (xy 145.669 101.981)
+			(xy 142.494 101.6) (xy 145.796 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1945,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 98.679 100.711) (xy 101.854 100.711)
+			(xy 98.806 100.584) (xy 101.854 100.584)
 		)
 		(stroke
 			(width 0)
@@ -1955,17 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.494 105.156) (xy 142.494 101.981)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38f5051c-bb17-4def-b51b-ceb72bde1879")
-	)
-	(wire
-		(pts
-			(xy 185.039 111.506) (xy 176.784 111.506)
+			(xy 184.404 111.379) (xy 176.784 111.379)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.549 109.601) (xy 201.549 110.871)
+			(xy 201.422 108.712) (xy 201.422 109.982)
 		)
 		(stroke
 			(width 0)
@@ -2005,16 +1985,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.289 101.981) (xy 155.829 101.981)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "645e6942-8440-464c-8c38-e73e3efeefac")
-	)
-	(wire
-		(pts
 			(xy 162.179 100.076) (xy 175.514 100.076)
 		)
 		(stroke
@@ -2025,7 +1995,17 @@
 	)
 	(wire
 		(pts
-			(xy 201.549 118.491) (xy 201.549 121.031)
+			(xy 184.404 100.076) (xy 184.404 101.854)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667a9c55-ec8e-4f61-b844-3b629823c8aa")
+	)
+	(wire
+		(pts
+			(xy 201.422 117.602) (xy 201.422 120.142)
 		)
 		(stroke
 			(width 0)
@@ -2045,16 +2025,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.039 100.076) (xy 201.549 100.076)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "775b640a-b30c-40c5-97be-b8a77c29191f")
-	)
-	(wire
-		(pts
 			(xy 175.514 100.076) (xy 175.514 102.108)
 		)
 		(stroke
@@ -2065,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.549 95.631) (xy 201.549 100.076)
+			(xy 201.422 96.647) (xy 201.422 100.076)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2045,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.039 109.601) (xy 185.039 111.506)
+			(xy 184.404 109.474) (xy 184.404 111.379)
 		)
 		(stroke
 			(width 0)
@@ -2095,6 +2065,26 @@
 	)
 	(wire
 		(pts
+			(xy 155.956 101.854) (xy 155.956 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa71a30-47cb-4221-83bc-b22c879a503c")
+	)
+	(wire
+		(pts
+			(xy 142.494 101.6) (xy 142.494 105.156)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b4eb7a-ab9a-4eb8-8aa0-24355a78bb75")
+	)
+	(wire
+		(pts
 			(xy 150.114 110.236) (xy 150.114 110.744)
 		)
 		(stroke
@@ -2105,7 +2095,37 @@
 	)
 	(wire
 		(pts
-			(xy 91.059 100.711) (xy 89.154 100.711)
+			(xy 184.404 100.076) (xy 201.422 100.076)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb3a3da-b468-4b91-b8d7-07a76c6d2160")
+	)
+	(wire
+		(pts
+			(xy 176.784 111.379) (xy 176.784 111.506)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efe4549-4133-4bd2-98d4-d0ee899ab8d6")
+	)
+	(wire
+		(pts
+			(xy 155.956 101.6) (xy 153.416 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0aa05e9-bef8-4753-9046-12740b22758c")
+	)
+	(wire
+		(pts
+			(xy 89.154 100.584) (xy 91.186 100.584)
 		)
 		(stroke
 			(width 0)
@@ -2155,6 +2175,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.422 100.076) (xy 201.422 101.092)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20ff636-df9f-4435-9feb-fd602ea0d22b")
+	)
+	(wire
+		(pts
 			(xy 175.514 109.728) (xy 175.514 111.506)
 		)
 		(stroke
@@ -2165,7 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 89.154 100.711) (xy 89.154 102.616)
+			(xy 89.154 100.584) (xy 89.154 102.616)
 		)
 		(stroke
 			(width 0)
@@ -2175,17 +2205,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.549 100.076) (xy 201.549 101.981)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8399dbf-f4c6-4db6-ab43-06f2cae7ba05")
-	)
-	(wire
-		(pts
-			(xy 101.854 105.156) (xy 101.854 100.711)
+			(xy 101.854 100.584) (xy 101.854 105.156)
 		)
 		(stroke
 			(width 0)
@@ -2342,7 +2362,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.549 121.031 0)
+		(at 201.422 120.142 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2353,7 +2373,7 @@
 		(fields_autoplaced yes)
 		(uuid "00cff046-37a1-478c-a034-8e45f167f4ab")
 		(property "Reference" "#PWR041"
-			(at 201.549 127.381 0)
+			(at 201.422 126.492 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2364,7 +2384,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.549 126.111 0)
+			(at 201.422 125.222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2374,7 +2394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.549 121.031 0)
+			(at 201.422 120.142 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2385,7 +2405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.549 121.031 0)
+			(at 201.422 120.142 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2396,7 +2416,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.549 121.031 0)
+			(at 201.422 120.142 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2497,110 +2517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 201.549 105.791 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1c97c418-6a96-49b5-b3e3-8cfa36004e6b")
-		(property "Reference" "R25"
-			(at 199.644 104.5209 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 199.644 107.0609 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 203.327 105.791 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "RES.(1005) 0402 1K Ohms 1% 1/10W  AUTOMOTIVE"
-			(at 201.549 105.791 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 201.549 105.791 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-hp02waf1001tce-603902"
-			(at 201.549 105.791 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "HP02WAF1001TCE"
-			(at 201.549 105.791 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63f59d10-c01f-496b-a236-528fbe0f3ed8")
-		)
-		(pin "2"
-			(uuid "fe3212b0-3922-4a6f-ada5-3e0baff25378")
-		)
-		(instances
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/fd943158-d042-4f4a-9023-ff2a53837944"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "USB4105-GF-A-120:USB4105-GF-A-120")
 		(at 122.174 110.236 0)
 		(unit 1)
@@ -2689,6 +2605,193 @@
 				)
 			)
 		)
+		(property "Availability" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WEBENCH Link" ""
+			(at 122.174 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A4_B9"
 			(uuid "5546f828-7fb4-4683-b664-4c10e7829941")
 		)
@@ -2741,107 +2844,6 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/fd943158-d042-4f4a-9023-ff2a53837944"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 94.869 100.711 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "285d22c7-b111-49b6-bf9e-4e5b4984cacc")
-		(property "Reference" "R2"
-			(at 94.869 98.171 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 94.869 100.711 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 94.869 102.489 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 94.869 100.711 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES.(1005) 0402 5.1K Ohms 1% 1/10W 100PPM AEC-Q200"
-			(at 94.869 100.711 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2rkf5101x-1046672"
-			(at 94.869 100.711 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "ERJ2RKF5101X"
-			(at 94.869 100.711 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eeeff98c-55e4-4050-b595-3fc50c15f32a")
-		)
-		(pin "2"
-			(uuid "4613ad31-9b92-4dd5-849c-532f89acddb2")
-		)
-		(instances
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/fd943158-d042-4f4a-9023-ff2a53837944"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2926,8 +2928,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 185.039 105.791 0)
+		(lib_id "Device:R")
+		(at 149.606 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2935,32 +2937,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "458aa889-ad19-4135-bf88-64749856122d")
-		(property "Reference" "C22"
-			(at 188.849 104.5209 0)
+		(uuid "3b264f42-c080-4cda-ab95-fe2756653b11")
+		(property "Reference" "R7"
+			(at 149.606 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 188.849 107.0609 0)
+		(property "Value" "4.7k"
+			(at 149.606 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.0042 109.601 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 149.606 103.378 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2970,8 +2969,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/GRT155R71E104KE01%23.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 185.039 105.791 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 149.606 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2981,8 +2980,8 @@
 				)
 			)
 		)
-		(property "Description" "MLCC (1005) 0402 100nF 25VDC ±10% X7R | Automotive(AEC-Q200)"
-			(at 185.039 105.791 0)
+		(property "Description" "RES.(1608) 0603 4.7K Ohms 5% 1/10W AUTOMOTIV"
+			(at 149.606 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2992,8 +2991,8 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grt155r71e104ke01d-1074547"
-			(at 185.039 105.791 0)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq03saj0472t5e-587928"
+			(at 149.606 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3003,8 +3002,8 @@
 				)
 			)
 		)
-		(property "Part Number" "GRT155R71E104KE01D"
-			(at 185.039 105.791 0)
+		(property "Part Number" "CQ03SAJ0472T5E"
+			(at 149.606 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3014,16 +3013,203 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "b8549314-416e-431b-8767-c96ed77cf43e")
+		(property "Availability" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WEBENCH Link" ""
+			(at 149.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "f34d8845-2e34-42c2-a5ce-37c6eb9e9389")
+			(uuid "c1591cb7-29fb-4efa-9ec5-a9dbd76123b8")
+		)
+		(pin "2"
+			(uuid "0740983b-aaba-4ec5-a2d5-5bc1f6d74825")
 		)
 		(instances
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/fd943158-d042-4f4a-9023-ff2a53837944"
-					(reference "C22")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3109,7 +3295,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 201.549 114.681 270)
+		(at 201.422 113.792 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3120,7 +3306,7 @@
 		(dnp no)
 		(uuid "498bcd45-d4ee-49ce-8597-52c562c1575d")
 		(property "Reference" "D4"
-			(at 197.739 114.9984 90)
+			(at 197.612 114.1094 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3131,7 +3317,7 @@
 			)
 		)
 		(property "Value" "Green LED"
-			(at 197.739 117.5384 90)
+			(at 197.612 116.6494 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3142,7 +3328,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 201.549 114.681 0)
+			(at 201.422 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3153,7 +3339,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/HL-PST-1608U51GC-yeni.PDF?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 201.549 114.681 0)
+			(at 201.422 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3164,7 +3350,7 @@
 			)
 		)
 		(property "Description" "LED SMD 0603 GREEN 500mcd 120° WATER CLEAR"
-			(at 201.549 114.681 0)
+			(at 201.422 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3175,7 +3361,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/sinyal-ledler-tek-renkli-361/honglitronic-hl-pst-1608u51gc-471660"
-			(at 201.549 114.681 0)
+			(at 201.422 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3186,7 +3372,194 @@
 			)
 		)
 		(property "Part Number" "HL-PST-1608U51GC"
-			(at 201.549 114.681 0)
+			(at 201.422 113.792 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 201.422 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WEBENCH Link" ""
+			(at 201.422 113.792 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,6 +3673,193 @@
 				)
 			)
 		)
+		(property "Availability" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WEBENCH Link" ""
+			(at 175.514 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "27676b04-363d-4cc6-922d-b49b91c2e532")
 		)
@@ -3310,6 +3870,297 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/fd943158-d042-4f4a-9023-ff2a53837944"
 					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.404 105.664 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63b328af-ffc1-40bc-8f59-e8673ec6e653")
+		(property "Reference" "C22"
+			(at 188.214 104.3939 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 188.214 106.9339 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 185.3692 109.474 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/SAMSUNG_MLCC_Automotive_JAN-2024.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MLCC (1608) 0603 100nF 16VDC ±10% X7R AUTOMOTIVE"
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/samsung-cl10b104ko8wpnc-522227"
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL10B104KO8WPNC"
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WEBENCH Link" ""
+			(at 184.404 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a4bd4cc5-9a31-4c90-bc2f-ca112e283675")
+		)
+		(pin "1"
+			(uuid "48470812-26ed-420d-8351-a455a0da711d")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/fd943158-d042-4f4a-9023-ff2a53837944"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3402,6 +4253,193 @@
 				)
 			)
 		)
+		(property "Availability" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WEBENCH Link" ""
+			(at 165.354 81.153 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5424354c-9d57-4ef0-82fb-ab6c11c50e56")
 		)
@@ -3416,17 +4454,13 @@
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/fd943158-d042-4f4a-9023-ff2a53837944"
 					(reference "U4")
 					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.479 101.981 90)
-		(mirror x)
+		(at 94.996 100.584 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3434,9 +4468,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "81606618-88be-4d99-80c9-38a2549bf11d")
-		(property "Reference" "R3"
-			(at 149.479 98.806 90)
+		(uuid "7777e289-64bc-4f30-b4e8-86f48d26cb98")
+		(property "Reference" "R6"
+			(at 94.996 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3445,8 +4479,8 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 149.479 101.981 90)
+		(property "Value" "4.7k"
+			(at 94.996 100.584 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3455,8 +4489,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 149.479 100.203 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 94.996 102.362 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3466,8 +4500,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 149.479 101.981 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 94.996 100.584 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3477,8 +4511,8 @@
 				)
 			)
 		)
-		(property "Description" "RES.(1005) 0402 5.1K Ohms 1% 1/10W 100PPM AEC-Q200"
-			(at 149.479 101.981 0)
+		(property "Description" "RES.(1608) 0603 4.7K Ohms 5% 1/10W AUTOMOTIV"
+			(at 94.996 100.584 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3488,8 +4522,8 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2rkf5101x-1046672"
-			(at 149.479 101.981 0)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq03saj0472t5e-587928"
+			(at 94.996 100.584 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3499,8 +4533,195 @@
 				)
 			)
 		)
-		(property "Part Number" "ERJ2RKF5101X"
-			(at 149.479 101.981 0)
+		(property "Part Number" "CQ03SAJ0472T5E"
+			(at 94.996 100.584 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 94.996 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WEBENCH Link" ""
+			(at 94.996 100.584 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3511,15 +4732,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "aefb80c3-b5ce-401c-8e29-658292091695")
+			(uuid "f873a411-b782-47ea-b048-c9d8558ff513")
 		)
 		(pin "2"
-			(uuid "5c5501a2-3213-4721-a01a-8a6d430a7dc6")
+			(uuid "1643b416-f22a-40d1-baaa-e6ff21db76a8")
 		)
 		(instances
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/fd943158-d042-4f4a-9023-ff2a53837944"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3527,7 +4748,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 155.829 101.981 0)
+		(at 155.956 101.854 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3537,7 +4758,7 @@
 		(dnp no)
 		(uuid "903b91a0-44bb-4155-9192-7dbb9c336089")
 		(property "Reference" "#PWR013"
-			(at 155.829 108.331 0)
+			(at 155.956 108.204 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3548,7 +4769,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 159.639 103.886 0)
+			(at 159.766 103.759 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3558,7 +4779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.829 101.981 0)
+			(at 155.956 101.854 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3569,7 +4790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 155.829 101.981 0)
+			(at 155.956 101.854 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3580,7 +4801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 155.829 101.981 0)
+			(at 155.956 101.854 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3760,7 +4981,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 201.549 95.631 0)
+		(at 201.422 96.647 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3771,7 +4992,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecf9802d-3d5e-4cde-9680-28c0fe088ccf")
 		(property "Reference" "#PWR014"
-			(at 201.549 99.441 0)
+			(at 201.422 100.457 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3782,7 +5003,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 201.549 90.551 0)
+			(at 201.422 91.567 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3792,7 +5013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.549 95.631 0)
+			(at 201.422 96.647 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3803,7 +5024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.549 95.631 0)
+			(at 201.422 96.647 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,7 +5035,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 201.549 95.631 0)
+			(at 201.422 96.647 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3924,6 +5145,193 @@
 				)
 			)
 		)
+		(property "Availability" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WEBENCH Link" ""
+			(at 162.179 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4e78610-e2d3-4b36-9fa3-b3a6008e196a")
 		)
@@ -3934,6 +5342,296 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/fd943158-d042-4f4a-9023-ff2a53837944"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.422 104.902 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa48dcd9-ab91-4886-b222-dfc868542fa0")
+		(property "Reference" "R15"
+			(at 203.327 103.6319 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 203.327 106.1719 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 199.644 104.902 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Data%20Sheet%20CRCW_BCe3.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1608) 0603 1K Ohms 5%"
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/vishay-crcw06031k00jntabc-358937"
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW06031K00JNTABC"
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WEBENCH Link" ""
+			(at 201.422 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc899962-ed76-416e-b96d-f73306270b6c")
+		)
+		(pin "2"
+			(uuid "c1f8ab96-cdc8-413c-8500-5eb9fb7c8b1c")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/fd943158-d042-4f4a-9023-ff2a53837944"
+					(reference "R15")
 					(unit 1)
 				)
 			)

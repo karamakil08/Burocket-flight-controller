@@ -567,33 +567,15 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         },
         {
@@ -604,9 +586,27 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": false
         },
         {
           "group_by": false,
@@ -618,7 +618,7 @@
           "group_by": false,
           "label": "Distributer Link",
           "name": "Distributer Link",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -657,10 +657,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Part Number",
           "name": "Part Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -733,11 +733,17 @@
           "label": "WEBENCH Link",
           "name": "WEBENCH Link",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -752,12 +758,12 @@
       "field_names": [
         {
           "name": "Distributer Link",
-          "url": false,
+          "url": true,
           "visible": false
         },
         {
           "name": "Part Number",
-          "url": false,
+          "url": true,
           "visible": false
         }
       ],
@@ -802,12 +808,8 @@
         "uuid": "ece13985-822e-4117-ba82-38a772aa2f0c"
       }
     ],
-    "used_designators": "",
-    "variants": [
-      {
-        "name": "Distributer Link"
-      }
-    ]
+    "used_designators": "C15,C17,C19,C21-33,C35-44,C47,C51,C56,C58-60,C66,R5-7,R11-13,R15,R28,R30-31,R33,R35-38,R40,R55-56,R60-62,R69-72,R75,R77,R85-107,#PWR21-22,#PWR122,#PWR135,BT1",
+    "variants": []
   },
   "sheets": [
     [
