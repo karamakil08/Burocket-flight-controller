@@ -4172,9 +4172,9 @@
 		)
 		(uuid "7f3fe736-66aa-49bc-9d04-8a3a3fad7555")
 	)
-	(text "C1 = C2 = 2*(Cl-Cs)\nC1 = C2 = 2*(15-5)"
+	(text "C1 = C2 = 2*(Cl-Cs)\nC1 = C2 = 2*(10-5)"
 		(exclude_from_sim no)
-		(at 36.83 101.346 0)
+		(at 32.766 101.346 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12690,7 +12690,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/clock_COM1_Series.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/ECS_ECX-2236Q.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
 			(at 43.688 83.058 0)
 			(hide yes)
 			(show_name no)
@@ -12701,7 +12701,7 @@
 				)
 			)
 		)
-		(property "Description" "CRYSTAL OSC.25MHz 50PPM 3V3 EXT T&R SMD  ±50 PPM"
+		(property "Description" "CRYSTAL 25MHz 10pF 4-SMD"
 			(at 43.688 83.058 0)
 			(hide yes)
 			(show_name no)
@@ -12712,7 +12712,7 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/osilatorler-510/raltron-com1305-25-000-ext-t-tr-341639"
+		(property "Distributer Link" "https://www.ozdisan.com/p/kristaller-508/ecs-ecs-250-10-36q-es-tr-710745"
 			(at 43.688 83.058 0)
 			(hide yes)
 			(show_name no)
@@ -12723,7 +12723,7 @@
 				)
 			)
 		)
-		(property "Part Number" "COM1305-25.000-EXT-T-TR"
+		(property "Part Number" "ECS-250-10-36Q-ES-TR"
 			(at 43.688 83.058 0)
 			(hide yes)
 			(show_name no)
@@ -14558,6 +14558,297 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 46.736 88.9 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3830c2c8-0312-46aa-abde-c8ceda3525bc")
+		(property "Reference" "C61"
+			(at 50.546 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10pF"
+			(at 50.546 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 45.7708 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/SAMSUNG_MLCC_Automotive_JAN-2024.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MLCC (1608) 0603 10pF 50VDC ±5% C0G (NP0)"
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/samsung-cl10c100jb81pnc-522432"
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL10C100JB81PNC"
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WEBENCH Link" ""
+			(at 46.736 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "02ad2042-c148-4c1e-a008-98f0bad83641")
+		)
+		(pin "1"
+			(uuid "67b0d20d-f4a4-4d14-86fc-cc1e6e8d7652")
+		)
+		(instances
+			(project "Burocket_hardware"
+				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 207.01 32.766 0)
 		(unit 1)
 		(body_style 1)
@@ -16271,7 +16562,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20pF"
+		(property "Value" "10pF"
 			(at 36.83 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16293,7 +16584,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/UPY-GP_NP0_16V-to-50V_18.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/SAMSUNG_MLCC_Automotive_JAN-2024.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
 			(at 40.64 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16304,7 +16595,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "MLCC (1608) 0603 10pF 50VDC ±5% C0G (NP0)"
 			(at 40.64 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16315,7 +16606,7 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/yageo-cc0603jrnpo9bn200-747236"
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/samsung-cl10c100jb81pnc-522432"
 			(at 40.64 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16326,7 +16617,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CC0603JRNPO9BN200"
+		(property "Part Number" "CL10C100JB81PNC"
 			(at 40.64 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -17269,297 +17560,6 @@
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 46.736 88.9 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5fc51f78-593b-486c-901c-290a2580f478")
-		(property "Reference" "C10"
-			(at 49.276 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "20pF"
-			(at 48.006 90.805 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.7708 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/UPY-GP_NP0_16V-to-50V_18.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MLCC (1608) 0603 20pF 50VDC ±5% C0G (NP0)"
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/yageo-cc0603jrnpo9bn200-747236"
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CC0603JRNPO9BN200"
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part number" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WEBENCH Link" ""
-			(at 46.736 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5adf7859-9615-4a5a-8d9c-1922ab1985a6")
-		)
-		(pin "1"
-			(uuid "999a6017-07cc-440b-9a91-b1e2d45a18d4")
-		)
-		(instances
-			(project "Burocket_hardware"
-				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
-					(reference "C10")
 					(unit 1)
 				)
 			)
