@@ -4297,6 +4297,12 @@
 		(uuid "3aecc821-6147-4500-81fa-a9496e9c7db9")
 	)
 	(junction
+		(at 200.152 126.238)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e540487-c279-4fe6-adda-90ef5e8996cf")
+	)
+	(junction
 		(at 232.664 28.956)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4842,16 +4848,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.025 126.238) (xy 201.803 126.238)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ae697c8-b3f7-4e16-9337-e7e9559a54c8")
-	)
-	(wire
-		(pts
 			(xy 201.168 66.04) (xy 201.168 66.802)
 		)
 		(stroke
@@ -5142,6 +5138,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.025 126.238) (xy 200.152 126.238)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b4d1af-560b-4a54-9307-00ab2dff1f80")
+	)
+	(wire
+		(pts
 			(xy 134.62 32.766) (xy 134.62 30.226)
 		)
 		(stroke
@@ -5359,6 +5365,16 @@
 			(type default)
 		)
 		(uuid "7351d889-1275-4a6e-a7c5-2228c0d5b91b")
+	)
+	(wire
+		(pts
+			(xy 200.152 126.238) (xy 201.803 126.238)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c86c94-f4a7-4bb4-a216-cb1435456648")
 	)
 	(wire
 		(pts
@@ -5992,6 +6008,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.152 126.238) (xy 200.152 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db564827-2b3b-4b11-9f4a-eb6d85c0fb41")
+	)
+	(wire
+		(pts
 			(xy 43.688 80.264) (xy 56.134 80.264)
 		)
 		(stroke
@@ -6089,6 +6115,16 @@
 			(type default)
 		)
 		(uuid "e723be20-69f8-4cb7-b627-92163d572304")
+	)
+	(wire
+		(pts
+			(xy 200.152 138.43) (xy 200.152 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8201049-bd42-4a7d-b72d-8eea04ff7555")
 	)
 	(wire
 		(pts
@@ -12349,6 +12385,12 @@
 			(uuid "cd796025-b342-43f0-be20-8cfbce9bb7df")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR010")
@@ -12640,6 +12682,12 @@
 			(uuid "ed63a9a2-1aa7-46ca-b31c-33fa8a2dec42")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C40")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C40")
@@ -12934,6 +12982,12 @@
 			(uuid "d72f2d4d-1241-4531-ba6c-7de918c1a562")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "Y2")
@@ -13012,6 +13066,12 @@
 			(uuid "8be4592d-c77a-43bb-b492-05364f7e8ede")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR02")
@@ -13090,6 +13150,12 @@
 			(uuid "73911a69-357e-4952-ab8c-e76f83c22afa")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR023")
@@ -13381,6 +13447,12 @@
 			(uuid "351e6ba9-45c3-4b99-9a83-57de70a5574f")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C13")
@@ -13672,6 +13744,12 @@
 			(uuid "678caa1a-b386-492e-9734-69666ca9579e")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "D2")
@@ -13965,6 +14043,12 @@
 			(uuid "184ab048-e0cc-405a-837a-397f664b6468")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "SW2")
@@ -14256,6 +14340,12 @@
 			(uuid "740dc075-1c8c-4cfb-a923-f7e846c0068a")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C23")
@@ -14548,6 +14638,12 @@
 			(uuid "53dba623-b4a5-4592-8e2a-bbaee0a9cda6")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "Q1")
@@ -14839,6 +14935,12 @@
 			(uuid "67b0d20d-f4a4-4d14-86fc-cc1e6e8d7652")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C61")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C61")
@@ -15130,6 +15232,12 @@
 			(uuid "3a6f4b89-4119-45c7-9e24-127af15982d1")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C38")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C38")
@@ -15208,6 +15316,12 @@
 			(uuid "ac42dd32-a9dd-45ed-be01-bf8799b4010e")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR026")
@@ -15498,6 +15612,12 @@
 			(uuid "fd7b9ecd-593c-4042-8415-bd141a2cc158")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "SW1")
@@ -15787,6 +15907,12 @@
 			(uuid "436c89ed-3f71-45ba-80ce-e243dc74262a")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "D5")
@@ -16078,6 +16204,12 @@
 			(uuid "ec6f87b4-f565-41c9-9359-493519cf2be2")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C11")
@@ -16156,6 +16288,12 @@
 			(uuid "d5e3b516-27a2-4734-abf3-b993dccee43d")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR028")
@@ -16454,9 +16592,306 @@
 			(uuid "7e4a5712-51c7-4a6b-bf60-7b00a66e2795")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "J5")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.152 133.35 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5138adcc-ea3e-46aa-ae04-0672a9b50204")
+		(property "Reference" "C46"
+			(at 196.342 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 196.342 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 199.1868 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/SAMSUNG%20MLCC_JAN-2024.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MLCC (2012) 0805 22uF 16VDC ±10% X5R"
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/samsung-cl21a226koqnnne-399002"
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL21A226KOQNNNE"
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WEBENCH Link" ""
+			(at 200.152 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0f48c07c-e8c0-4fdd-9f24-3db6a40dc031")
+		)
+		(pin "1"
+			(uuid "61384425-1df5-45fe-9d4d-6855347c92a1")
+		)
+		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -16532,6 +16967,12 @@
 			(uuid "04fa8799-8e0d-4383-a976-573ff1bf9ba8")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR09")
@@ -16822,6 +17263,12 @@
 			(uuid "7491f43e-6cc2-4822-a9fd-00453287be53")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C18")
@@ -16899,6 +17346,12 @@
 			(uuid "3b6f9086-3526-4ce3-9f44-9cdf2dc1b48a")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR022")
@@ -16977,6 +17430,12 @@
 			(uuid "323c918d-2276-45a5-88e9-2e538c5170d3")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR03")
@@ -17266,6 +17725,12 @@
 			(uuid "c9d4bb98-ac1f-4391-967c-c67ab204815f")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "FB1")
@@ -17557,6 +18022,12 @@
 			(uuid "b5b44e93-264a-474d-9c49-0bd23d8b35aa")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C41")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C41")
@@ -17635,6 +18106,12 @@
 			(uuid "163440e7-cd68-4a44-867a-f36c1ef0af55")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR07")
@@ -17713,6 +18190,12 @@
 			(uuid "2207f8b9-373b-4ee7-8301-e34e38fa0f5d")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR025")
@@ -17792,6 +18275,12 @@
 			(uuid "b3a63751-8cb7-4f95-8400-a17a61748b2d")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR024")
@@ -17870,6 +18359,12 @@
 			(uuid "820759ba-b341-4682-b9a9-dced74df2e6b")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR050")
@@ -18159,6 +18654,12 @@
 			(uuid "d7b7510a-9663-4cd7-946b-0fabcc648b35")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "D7")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "D7")
@@ -18450,6 +18951,12 @@
 			(uuid "9147f552-1c15-47bc-b83c-445ffb03e5cf")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C24")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C24")
@@ -18527,6 +19034,12 @@
 			(uuid "72a73d72-6535-4430-b0d6-621855a5dff4")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR021")
@@ -18817,6 +19330,12 @@
 			(uuid "9566dbb8-7854-4f43-ba1f-aebccd75e36d")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "R12")
@@ -19295,6 +19814,12 @@
 			(uuid "c41aff72-0825-4803-8245-ed7384d5882f")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "U1")
@@ -19585,6 +20110,12 @@
 			(uuid "083f0e90-5308-48ae-bd4f-85557ed83339")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "R11")
@@ -19876,6 +20407,12 @@
 			(uuid "46bd0c84-d779-4523-8e1e-67318f2f77fa")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C21")
@@ -20166,6 +20703,12 @@
 			(uuid "0b1ab5c2-1563-410c-b2f3-154812e74581")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C45")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C45")
@@ -20457,6 +21000,12 @@
 			(uuid "1c7c1506-8048-498c-9ce9-2c0279588a89")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "R75")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "R75")
@@ -20535,6 +21084,12 @@
 			(uuid "758a39c1-3f9c-4f5b-ac35-29e18342c85f")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR08")
@@ -20613,6 +21168,12 @@
 			(uuid "1bcf3fa9-82d5-473e-b082-c852e1678269")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR018")
@@ -20904,6 +21465,12 @@
 			(uuid "fc4a9954-8c2a-4cca-8d5e-58b5153b2330")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "R100")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "R100")
@@ -20982,6 +21549,12 @@
 			(uuid "20e939cb-96dc-45f2-916e-6f046415c0c5")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR019")
@@ -21271,6 +21844,12 @@
 			(uuid "1cbb3945-ee10-43ba-8587-2151883b9bcf")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "D6")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "D6")
@@ -21562,6 +22141,12 @@
 			(uuid "acc28c2a-96de-4e09-afc7-f9b4dc6d8998")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C12")
@@ -21853,6 +22438,12 @@
 			(uuid "258473ec-fdd8-4bc4-978f-b409b7741726")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "BZ1")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "BZ1")
@@ -22143,6 +22734,12 @@
 			(uuid "75d2d151-a410-4fc6-a619-279c111b2eb0")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "R53")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "R53")
@@ -22431,6 +23028,12 @@
 			(uuid "6c880daf-f1c3-4b27-ab9c-11ed3bdc0b40")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "R4")
@@ -22509,6 +23112,12 @@
 			(uuid "df50b303-6e78-4cd0-956a-b5e6bee37e17")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR029")
@@ -22800,6 +23409,12 @@
 			(uuid "0b3d942f-a19f-4e5b-a1d5-b900b509bf8b")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C17")
@@ -22878,6 +23493,12 @@
 			(uuid "cfd01289-a256-4e95-8c5d-151d19af1e76")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR027")
@@ -22955,6 +23576,12 @@
 			(uuid "6c0dc1a3-020e-4b95-93ad-d676e7f5b56c")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR05")
@@ -23246,6 +23873,12 @@
 			(uuid "48d20e3d-65d8-4fa7-bbe9-e82a0f8800ff")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C25")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C25")
@@ -23534,6 +24167,12 @@
 			(uuid "e8ff721b-671c-480d-a587-9876846f67be")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "R27")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "R27")
@@ -23825,6 +24464,12 @@
 			(uuid "d1ef7566-e2b6-4260-8ef5-a2dc3c19eae6")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "D1")
@@ -24116,6 +24761,12 @@
 			(uuid "e1de2a68-fbe8-442a-b3d8-3c7949615539")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "C14")
@@ -24405,9 +25056,93 @@
 			(uuid "fd61d061-6c94-4a0a-9b1c-7420691ac160")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.152 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e822a7aa-1694-4aa3-88f7-799aae81de8c")
+		(property "Reference" "#PWR051"
+			(at 200.152 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.152 142.875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.152 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.152 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.152 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f784f649-548b-4bef-bf27-85442a1d9e92")
+		)
+		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -24696,6 +25431,12 @@
 			(uuid "68b7abc3-1793-4614-982e-3f464904a905")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "R10")
@@ -24774,6 +25515,12 @@
 			(uuid "004ddb20-1994-4036-a6b5-87423ae8270a")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR049")
@@ -24852,6 +25599,12 @@
 			(uuid "30b7e9d0-cf9f-4c55-91a3-de07172ad76c")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR01")
@@ -24929,6 +25682,12 @@
 			(uuid "a4fe6385-2f4a-4afb-9b24-b9549a333747")
 		)
 		(instances
+			(project "MCU"
+				(path "/83241868-1246-463c-ba65-631ac38259b5"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "Burocket_hardware"
 				(path "/ece13985-822e-4117-ba82-38a772aa2f0c/7e969557-1fa7-4fb3-8ee1-1ba2f7c36487"
 					(reference "#PWR06")
@@ -24937,4 +25696,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

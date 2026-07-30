@@ -657,7 +657,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Part Number",
           "name": "Part Number",
           "show": true
@@ -758,12 +758,12 @@
       "field_names": [
         {
           "name": "Distributer Link",
-          "url": true,
+          "url": false,
           "visible": false
         },
         {
           "name": "Part Number",
-          "url": true,
+          "url": false,
           "visible": false
         }
       ],

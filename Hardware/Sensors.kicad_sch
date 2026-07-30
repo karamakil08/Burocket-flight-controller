@@ -9626,7 +9626,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GNSS / GPS Modules M10N LCC GNSS module, upgradeable FW in flash memory, LNA, SAW filter, TCXO"
 			(at 206.502 128.016 0)
 			(hide yes)
 			(show_name no)
@@ -9637,7 +9637,7 @@
 				)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://eu.mouser.com/en/ProductDetail/u-blox/MAX-M10N-00B?qs=bpu3f%2FCR1jwtfwdfDBNEow%3D%3D"
 			(at 206.502 128.016 0)
 			(hide yes)
 			(show_name no)
@@ -9648,7 +9648,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "MAX-M10N-00B "
 			(at 206.502 128.016 0)
 			(hide yes)
 			(show_name no)
@@ -13239,6 +13239,28 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://eu.mouser.com/en/ProductDetail/TE-Connectivity-Measurement-Specialties/MS561101BA03-50?qs=%252BgKeJhng5iV%252BnCz6Qd5iDw%3D%3D"
+			(at 215.138 62.484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "MS561101BA03-50"
+			(at 215.138 62.484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "795b49fa-5340-4204-814e-69c0dd4b8c1c")
 		)
@@ -13911,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Accelerometers 3-Axis, 200 g Digital MEMS Accelerometer"
 			(at 94.234 133.858 0)
 			(hide yes)
 			(show_name no)
@@ -13922,7 +13944,7 @@
 				)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://eu.mouser.com/en/ProductDetail/Analog-Devices/ADXL375BCCZ-RL7?qs=S4ILP0tmc7QIv%2F7Dk2oBJA%3D%3D"
 			(at 94.234 133.858 0)
 			(hide yes)
 			(show_name no)
@@ -13933,7 +13955,7 @@
 				)
 			)
 		)
-		(property "Part Number" "ADXL375"
+		(property "Part Number" "ADXL375BCCZ-RL7"
 			(at 94.234 133.858 0)
 			(hide yes)
 			(show_name no)
@@ -17005,7 +17027,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ICM_42688_P:LGA14_2P5X3X0P91_TDK"
 			(at 65.786 54.356 0)
 			(hide yes)
 			(show_name no)
@@ -17029,7 +17051,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SENSOR MOTION ACCELERO/GYRO 6-AXIS MEMS LGA14"
 			(at 60.96 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -17040,7 +17062,7 @@
 				)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://eu.mouser.com/en/ProductDetail/TDK-InvenSense/ICM-42688-P?qs=OlC7AqGiEDk8QrNAV728zw%3D%3D"
 			(at 60.96 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -17051,7 +17073,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "ICM-42688-P"
 			(at 60.96 58.42 0)
 			(hide yes)
 			(show_name no)

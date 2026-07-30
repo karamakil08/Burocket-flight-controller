@@ -36,7 +36,7 @@
 		)
 		(uuid "3a50e5b5-2889-4c70-9fed-ee372b8a1803")
 	)
-	(text "TODO:\n- Must change nmos driving E-match\n- Consider Passive components\n\n- Consider and thoroughly check all footprints\n"
+	(text "TODO:\n- Must change nmos driving E-match\n- Consider buzzer circuit\n\n- Consider Passive components\n\n- Consider and thoroughly check all footprints\n"
 		(exclude_from_sim no)
 		(at -204.216 54.102 0)
 		(effects

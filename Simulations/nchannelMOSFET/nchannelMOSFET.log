@@ -1,0 +1,22 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\Microslop\Documents\LTspice\nchannelMOSFET\nchannelMOSFET.net
+Start Time: Thu Jul 30 14:44:28 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.096 seconds.
+
+Files loaded:
+C:\Users\Microslop\Documents\LTspice\nchannelMOSFET\nchannelMOSFET.net
+C:\Users\Microslop\Documents\LTspice\nchannelMOSFET\irlml0030trpbf.txt
+
+max_load_current: MAX(I(R3))=3.35820055008 FROM 0 TO 0.1
+max_power_dissipation: MAX({V(Drain)*Ix(M1:D)+V(Gate)*Ix(M1:G)})=9.01634132716 FROM 0 TO 0.1
+average_power_dissipation: AVG({V(Drain)*Ix(M1:D)+V(Gate)*Ix(M1:G)} )=0.834617284007 FROM 0.001 TO 0.051
+max_2s_voltage_drop: PP(V(battery))=0.0340008735657 FROM 0 TO 0.1
+max_gpio_current: MAX(I(R1))=0.0103949792683 FROM 0 TO 0.1
+average_delivered_power: AVG({V(N002,N003)*I(R3)} )=22.5548205736 FROM 0.001 TO 0.051
+max_delivered_power: MAX({V(N002,N003)*I(R3)})=22.5550212686 FROM 0 TO 0.1
