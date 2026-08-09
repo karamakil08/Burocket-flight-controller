@@ -1,0 +1,6 @@
+.history/
+.history_trim/"*.lck" 
+"*.elf" 
+"*.bin" 
+"*.step" 
+"build/" 

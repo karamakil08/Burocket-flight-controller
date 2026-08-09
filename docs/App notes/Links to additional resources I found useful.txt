@@ -31,6 +31,16 @@ On controlled impedance:
 On ESD protection:
 https://www.youtube.com/watch?v=MmG_m4xVNfQ
 
+On SD-cards:
+https://elm-chan.org/docs/mmc/mmc_e.html
+
+On high speed digital:
+https://www.analog.com/media/en/training-seminars/tutorials/mt-097.pdf
+
+Optocouplers:
+- https://docs.broadcom.com/doc/AV02-4387EN
+- https://www.vishay.com/docs/48034/edn0715.pdf
+
 Some Exquisite music:
 - https://www.youtube.com/watch?v=yEN5rGR7gtM
 - https://www.youtube.com/watch?v=X-jdl9hcCeg&list=RDX-jdl9hcCeg&start_radio=1
